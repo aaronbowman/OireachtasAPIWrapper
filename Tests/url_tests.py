@@ -1,8 +1,9 @@
 import unittest
-
+import vcr
 from Wrapper import urls
 
 class TestURL(unittest.TestCase):
+
 
     def test_legislation_url(self):
         test_url = urls.URLs().legislation_url()
