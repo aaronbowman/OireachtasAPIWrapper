@@ -16,7 +16,7 @@ class URLs:
         self.members = '/members'
 
     #Merges all the base urls with the relevant endpoints
-    #Does not access any filters
+    #Does not access any parameters on its own
     def base_url(self):
         return self.base_url
 

@@ -1,5 +1,8 @@
-from fetch_data import FetchResponse
+import logging
 
-fetch = FetchResponse()
+from .fetch_data import FetchResponse as Response
+from .fetch_data import FetchData as Data
 
-fetch_questions = fetch.fetch_questions_response()
+
+formatter = '%(asctime)s - %(name)s - %(levelname)s - %(message)s'
+logging.basicConfig(filename='OireachtasWrapper_API.log', level=logging.DEBUG, format=formatter)
