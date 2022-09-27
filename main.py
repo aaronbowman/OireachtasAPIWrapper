@@ -7,7 +7,7 @@ import logging
 import Wrapper
 
 def print_content():
-    reply = Wrapper.Data().fetch_debate_response(params={'limit' : 1})
+    reply = Wrapper.Data().fetch_constituencies_data(params={})
     print(reply)
 
 
