@@ -1,38 +1,39 @@
 import unittest
-import vcr
+
 from Wrapper import urls
+
 
 class TestURL(unittest.TestCase):
 
 
-    def test_legislation_url(self):
-        test_url = urls.URLs().legislation_url()
+    def test__legislation_url(self):
+        test_url = urls.URLs()._legislation_url()
         self.assertEqual(test_url, 'https://api.oireachtas.ie/v1/legislation')
 
-    def test_debate_url(self):
-        test_url = urls.URLs().debate_url()
+    def test__debate_url(self):
+        test_url = urls.URLs()._debates_url()
         self.assertEqual(test_url, 'https://api.oireachtas.ie/v1/debates')
 
-    def test_constituencies_url(self):
-        test_url = urls.URLs().constituencies_url()
+    def test__constituencies_url(self):
+        test_url = urls.URLs()._constituencies_url()
         self.assertEqual(test_url, 'https://api.oireachtas.ie/v1/constituencies')
 
-    def test_parties_url(self):
-        test_url = urls.URLs().parties_url()
+    def test__parties_url(self):
+        test_url = urls.URLs()._parties_url()
         self.assertEqual(test_url, 'https://api.oireachtas.ie/v1/parties')
 
-    def test_divisions_url(self):
-        test_url = urls.URLs().divisions_url()
+    def test__divisions_url(self):
+        test_url = urls.URLs()._divisions_url()
         self.assertEqual(test_url, 'https://api.oireachtas.ie/v1/divisions')
 
-    def test_questions_url(self):
-        test_url = urls.URLs().questions_url()
+    def test__questions_url(self):
+        test_url = urls.URLs()._questions_url()
         self.assertEqual(test_url, 'https://api.oireachtas.ie/v1/questions')
 
-    def test_houses_url(self):
-        test_url = urls.URLs().houses_url()
+    def test__houses_url(self):
+        test_url = urls.URLs()._houses_url()
         self.assertEqual(test_url, 'https://api.oireachtas.ie/v1/houses')
 
-    def test_members_url(self):
-        test_url = urls.URLs().members_url()
+    def test__members_url(self):
+        test_url = urls.URLs()._members_url()
         self.assertEqual(test_url, 'https://api.oireachtas.ie/v1/members')

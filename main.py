@@ -6,9 +6,10 @@ import logging
 
 import Wrapper
 
+
 def print_content():
-    reply = Wrapper.Data().fetch_constituencies_data(params={})
-    print(reply)
+    reply = Wrapper.Response().make_request(endpoint='https://api.oireachtas.ie/v1/debates')
+    print(reply.content)
 
 
 

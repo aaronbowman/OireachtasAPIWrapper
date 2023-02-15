@@ -1,8 +1,6 @@
 import logging
 
-from .fetch_data import FetchResponse as Response
-from .fetch_data import FetchData as Data
-
+from .api import API as Response
 
 formatter = '%(asctime)s - %(name)s - %(levelname)s - %(message)s'
 logging.basicConfig(filename='OireachtasWrapper_API.log', level=logging.DEBUG, format=formatter)

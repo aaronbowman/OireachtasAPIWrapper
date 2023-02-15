@@ -15,31 +15,31 @@ class URLs:
         self.houses = '/houses'
         self.members = '/members'
 
-    #Merges all the base urls with the relevant endpoints
-    #Does not access any parameters on its own
-    def base_url(self):
+    """Merges all the base urls with their respecitve endpoints and returns them
+    All of these are hidden methods as to not pollute the namespace"""
+    def _base_url(self):
         return self.base_url
 
-    def legislation_url(self):
+    def _legislation_url(self):
         return self.base_url + self.legislation
 
-    def debate_url(self):
+    def _debates_url(self):
         return self.base_url + self.debates
 
-    def constituencies_url(self):
+    def _constituencies_url(self):
         return self.base_url + self.constituencies
 
-    def parties_url(self):
+    def _parties_url(self):
         return self.base_url + self.parties
 
-    def divisions_url(self):
+    def _divisions_url(self):
         return self.base_url + self.divisions
 
-    def questions_url(self):
+    def _questions_url(self):
         return self.base_url + self.questions
 
-    def houses_url(self):
+    def _houses_url(self):
         return self.base_url + self.houses
 
-    def members_url(self):
+    def _members_url(self):
         return self.base_url + self.members
