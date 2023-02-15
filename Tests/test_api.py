@@ -2,7 +2,7 @@ import unittest
 
 import vcr
 
-from Wrapper import api
+from OireachtasAPI import api
 
 
 class TestAPI(unittest.TestCase):

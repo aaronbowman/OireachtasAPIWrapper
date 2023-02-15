@@ -1,6 +1,6 @@
 import unittest
 
-from Wrapper import urls
+from OireachtasAPI import urls
 
 
 class TestURL(unittest.TestCase):
