@@ -1,39 +1,22 @@
-import unittest
+import pytest
 
 from OireachtasAPI import urls
 
 
-class TestURL(unittest.TestCase):
-
-
-    def test__legislation_url(self):
-        test_url = urls.URLs()._legislation_url()
-        self.assertEqual(test_url, 'https://api.oireachtas.ie/v1/legislation')
-
-    def test__debate_url(self):
-        test_url = urls.URLs()._debates_url()
-        self.assertEqual(test_url, 'https://api.oireachtas.ie/v1/debates')
-
-    def test__constituencies_url(self):
-        test_url = urls.URLs()._constituencies_url()
-        self.assertEqual(test_url, 'https://api.oireachtas.ie/v1/constituencies')
-
-    def test__parties_url(self):
-        test_url = urls.URLs()._parties_url()
-        self.assertEqual(test_url, 'https://api.oireachtas.ie/v1/parties')
-
-    def test__divisions_url(self):
-        test_url = urls.URLs()._divisions_url()
-        self.assertEqual(test_url, 'https://api.oireachtas.ie/v1/divisions')
-
-    def test__questions_url(self):
-        test_url = urls.URLs()._questions_url()
-        self.assertEqual(test_url, 'https://api.oireachtas.ie/v1/questions')
-
-    def test__houses_url(self):
-        test_url = urls.URLs()._houses_url()
-        self.assertEqual(test_url, 'https://api.oireachtas.ie/v1/houses')
-
-    def test__members_url(self):
-        test_url = urls.URLs()._members_url()
-        self.assertEqual(test_url, 'https://api.oireachtas.ie/v1/members')
+@pytest.mark.parametrize(
+    ("method_name", "expected"),
+    [
+        ("_legislation_url", "https://api.oireachtas.ie/v1/legislation"),
+        ("_debates_url", "https://api.oireachtas.ie/v1/debates"),
+        ("_constituencies_url", "https://api.oireachtas.ie/v1/constituencies"),
+        ("_parties_url", "https://api.oireachtas.ie/v1/parties"),
+        ("_divisions_url", "https://api.oireachtas.ie/v1/divisions"),
+        ("_questions_url", "https://api.oireachtas.ie/v1/questions"),
+        ("_houses_url", "https://api.oireachtas.ie/v1/houses"),
+        ("_members_url", "https://api.oireachtas.ie/v1/members"),
+    ],
+)
+def test_url_builders_return_expected_values(method_name, expected):
+    url_builder = urls.URLs()
+    method = getattr(url_builder, method_name)
+    assert method() == expected

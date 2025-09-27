@@ -1,0 +1,42 @@
+# Python bytecode and cache directories
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Test and coverage artifacts
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Virtual environments and package manager caches
+.venv/
+.env/
+.envrc
+.uv-cache/
+.uv/
+
+# Tooling / IDE metadata
+.idea/
+.vscode/
+
+# Distribution / build outputs
+build/
+dist/
+*.egg-info/
+
+# OS cruft
+.DS_Store
+
+# Secrets and credentials
+*.pem
+*.key
+*.crt
+*.pfx
+*.p12
+.env*
+
+# Logs
+*.log
+
+# Local uv lockfile caches
+uv.lock

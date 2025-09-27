@@ -1,51 +1,49 @@
-import unittest
+import pytest
+from unittest.mock import Mock
 
-import vcr
-
-from OireachtasAPI import api
-
-
-class TestAPI(unittest.TestCase):
-
-    @vcr.use_cassette('fixtures/cassettes/legislation.yaml', record_mode='new_episodes')
-    def test_legislation_endpoint(self):
-        test_case = (api.API().make_request(endpoint='https://api.oireachtas.ie/v1/legislation'))
-        self.assertEqual(test_case.status_code, 200)
-
-    @vcr.use_cassette('fixtures/cassettes/debates.yaml', record_mode='new_episodes')
-    def test_debates_endpoint(self):
-        test_case = (api.API().make_request(endpoint='https://api.oireachtas.ie/v1/debates'))
-        self.assertEqual(test_case.status_code, 200)
-
-    @vcr.use_cassette('fixtures/cassettes/constituencies.yaml', record_mode='new_episodes')
-    def test_constituencies_endpoint(self):
-        test_case = (api.API().make_request(endpoint='https://api.oireachtas.ie/v1/constituencies'))
-        self.assertEqual(test_case.status_code, 200)
-
-    @vcr.use_cassette('fixtures/cassettes/parties.yaml', record_mode='new_episodes')
-    def test_parties_endpoint(self):
-        test_case = (api.API().make_request(endpoint='https://api.oireachtas.ie/v1/parties'))
-        self.assertEqual(test_case.status_code, 200)
-
-    @vcr.use_cassette('fixtures/cassettes/divisions.yaml', record_mode='new_episodes')
-    def test_divisions_endpoint(self):
-        test_case = (api.API().make_request(endpoint='https://api.oireachtas.ie/v1/divisions'))
-        self.assertEqual(test_case.status_code, 200)
-
-    @vcr.use_cassette('fixtures/cassettes/questions.yaml', record_mode='new_episodes')
-    def test_questions_endpoint(self):
-        test_case = (api.API().make_request(endpoint='https://api.oireachtas.ie/v1/questions'))
-        self.assertEqual(test_case.status_code, 200)
-
-    @vcr.use_cassette('fixtures/cassettes/houses.yaml', record_mode='new_episodes')
-    def test_houses_endpoint(self):
-        test_case = (api.API().make_request(endpoint='https://api.oireachtas.ie/v1/houses'))
-        self.assertEqual(test_case.status_code, 200)
-
-    @vcr.use_cassette('fixtures/cassettes/members.yaml', record_mode='new_episodes')
-    def test_members_endpoint(self):
-        test_case = (api.API().make_request(endpoint='https://api.oireachtas.ie/v1/members'))
-        self.assertEqual(test_case.status_code, 200)
+from OireachtasAPI import api, errors
 
 
+@pytest.mark.parametrize(
+    "endpoint",
+    [
+        "https://api.oireachtas.ie/v1/legislation",
+        "https://api.oireachtas.ie/v1/debates",
+        "https://api.oireachtas.ie/v1/constituencies",
+        "https://api.oireachtas.ie/v1/parties",
+        "https://api.oireachtas.ie/v1/divisions",
+        "https://api.oireachtas.ie/v1/questions",
+        "https://api.oireachtas.ie/v1/houses",
+        "https://api.oireachtas.ie/v1/members",
+    ],
+)
+def test_make_request_success(monkeypatch, response_factory, endpoint):
+    mock_response = response_factory(status_code=200)
+    mock_get = Mock(return_value=mock_response)
+    monkeypatch.setattr(api.requests, "get", mock_get)
 
+    response = api.API().make_request(endpoint=endpoint)
+
+    assert response.status_code == 200
+    mock_get.assert_called_once_with(url=endpoint, params={})
+
+
+@pytest.mark.parametrize(
+    ("status_code", "expected_exception"),
+    [
+        (400, errors.BadRequest),
+        (401, errors.Unauthorised),
+        (403, errors.Forbidden),
+        (404, errors.NotFound),
+        (429, errors.TooManyRequests),
+    ],
+)
+def test_make_request_raises_for_error_status(monkeypatch, response_factory, status_code, expected_exception):
+    mock_response = response_factory(status_code=status_code)
+    mock_get = Mock(return_value=mock_response)
+    monkeypatch.setattr(api.requests, "get", mock_get)
+
+    with pytest.raises(expected_exception):
+        api.API().make_request(endpoint="https://api.oireachtas.ie/v1/legislation")
+
+    mock_get.assert_called_once()
