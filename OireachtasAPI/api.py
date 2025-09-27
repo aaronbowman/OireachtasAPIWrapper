@@ -36,9 +36,9 @@ class API(URLs):
             if response.status_code != 200:
                 self._response_code_error_type(response)
 
+            logging.debug(msg=f'Returning resp from endpoint: {endpoint} with params: {params}')
+            return response
+
         except Exception as err:
             logging.error(msg=err, exc_info=True)
-
-        logging.debug(msg=f'Returning resp from endpoint: {endpoint} with params: {params}')
-        return response
-
+            raise
