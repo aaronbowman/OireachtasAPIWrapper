@@ -25,14 +25,14 @@ jobs:
         with:
           python-version: ${{ matrix.python-version }}
 
-      - name: Install test deps and project (extras: test)
+      - name: "Install test deps and project (extras: test)"
         run: |
           python -m pip install --upgrade pip
-          pip install -U build
-          pip install -e .[test]
+          pip install -U build pytest
+          pip install -e ".[test]"
+
       - name: Run tests
-        run: |
-          pytest -q
+        run: pytest -q
 
   build:
     runs-on: ubuntu-latest
@@ -50,6 +50,7 @@ jobs:
           python -m pip install --upgrade pip
           pip install -U build
           python -m build
+
       - name: Upload dist artifacts
         uses: actions/upload-artifact@v4
         with:
@@ -68,8 +69,9 @@ jobs:
         with:
           name: dist
           path: dist
+
       - name: Publish to PyPI (Trusted Publishing)
         uses: pypa/gh-action-pypi-publish@release/v1
         with:
           packages-dir: dist
-          # No token needed when OIDC is enabled on PyPI project
+          # No token needed when OIDC is enabled on the PyPI project
