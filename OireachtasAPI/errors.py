@@ -7,16 +7,11 @@ class HTTPException(OireachtasAPIException):
     # Created with the defaults of none so that we can later cover json and HTTPS exceptions in the one area
     def __init__(self, response=None, response_json=None):
         self.response = response
+        self.status_code = response.status_code if response is not None else None
 
         self.api_error = []
         self.api_code = []
         self.api_message = []
-
-        try:
-            status_code = response.status.code
-        except AttributeError:
-            # Response is an instance of http.clientresponse
-            status_code = response.status
 
 class BadRequest(HTTPException):
     """BadRequest()

@@ -24,8 +24,9 @@ class Wrapper(API):
             return self._houses_url()
         if endpoint_name == 'members':
             return self._members_url()
+        raise ValueError(f"Unknown endpoint: {endpoint_name!r}")
 
-    def wrapper_make_request(self, endpoint_name: str=None, params: dict={}) ->str :
+    def wrapper_make_request(self, endpoint_name: str=None, params: dict=None) ->str :
 
         #Fetch the actual endpoint url to use
         correct_endpoint = self._fetch_endpoint(endpoint_name=endpoint_name)

@@ -1,0 +1,63 @@
+interactions:
+- request:
+    body: null
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      User-Agent:
+      - python-requests/2.32.4
+    method: GET
+    uri: https://api.oireachtas.ie/v1/houses
+  response:
+    body:
+      string: '{"head":{"counts":{"housesCount":68,"resultCount":68}},"results":[{"house":{"chamberType":"house","houseCode":"dail
+        & seanad","houseNo":"27","showAs":"34th D\u00e1il & 27th Seanad","seats":234,"dateRange":{"end":null,"start":"2025-01-29"},"houseType":"dail
+        & seanad","chamberCode":"dail & seanad","uri":"https:\/\/data.oireachtas.ie\/ie\/oireachtas\/house\/dail
+        & seanad\/27"}},{"house":{"chamberType":"house","houseCode":"seanad","houseNo":"27","showAs":"27th
+        Seanad","seats":60,"dateRange":{"end":null,"start":"2025-01-29"},"houseType":"seanad","chamberCode":"seanad","uri":"https:\/\/data.oireachtas.ie\/ie\/oireachtas\/house\/seanad\/27"}},{"house":{"chamberType":"house","houseCode":"dail","houseNo":"34","showAs":"34th
+        D\u00e1il","seats":174,"dateRange":{"end":null,"start":"2024-11-29"},"houseType":"dail","chamberCode":"dail","uri":"https:\/\/data.oireachtas.ie\/ie\/oireachtas\/house\/dail\/34"}},{"house":{"chamberType":"house","houseCode":"seanad","houseNo":"26","showAs":"26th
+        Seanad","seats":60,"dateRange":{"end":null,"start":"2020-03-30"},"houseType":"seanad","chamberCode":"seanad","uri":"https:\/\/data.oireachtas.ie\/ie\/oireachtas\/house\/seanad\/26"}},{"house":{"chamberType":"house","houseCode":"dail","houseNo":"33","showAs":"33rd
+        D\u00e1il","seats":160,"dateRange":{"end":"2024-11-08","start":"2020-02-08"},"houseType":"dail","chamberCode":"dail","uri":"https:\/\/data.oireachtas.ie\/ie\/oireachtas\/house\/dail\/33"}},{"house":{"chamberType":"house","houseCode":"dail
+        & seanad","houseNo":"26","showAs":"33rd D\u00e1il & 26th Seanad","seats":220,"dateRange":{"end":"2024-11-08","start":"2020-02-08"},"houseType":"dail
+        & seanad","chamberCode":"dail & seanad","uri":"https:\/\/data.oireachtas.ie\/ie\/oireachtas\/house\/dail
+        & seanad\/26"}},{"house":{"chamberType":"house","houseCode":"dail & seanad","houseNo":"25","showAs":"32nd
+        D\u00e1il & 25th Seanad","seats":218,"dateRange":{"end":"2020-01-14","start":"2016-04-25"},"houseType":"dail
+        & seanad","chamberCode":"dail & seanad","uri":"https:\/\/data.oireachtas.ie\/ie\/oireachtas\/house\/dail
+        & seanad\/25"}},{"house":{"chamberType":"house","houseCode":"seanad","houseNo":"25","showAs":"25th
+        Seanad","seats":60,"dateRange":{"end":"2020-03-29","start":"2016-04-25"},"houseType":"seanad","chamberCode":"seanad","uri":"https:\/\/data.oireachtas.ie\/ie\/oireachtas\/house\/seanad\/25"}},{"house":{"chamberType":"house","houseCode":"dail","houseNo":"32","showAs":"32nd
+        D\u00e1il","seats":158,"dateRange":{"end":"2020-01-14","start":"2016-03-10"},"houseType":"dail","chamberCode":"dail","uri":"https:\/\/data.oireachtas.ie\/ie\/oireachtas\/house\/dail\/32"}},{"house":{"chamberType":"house","houseCode":"seanad","houseNo":"24","showAs":"24th
+        Seanad","seats":60,"dateRange":{"end":"2016-04-24","start":"2011-05-25"},"houseType":"seanad","chamberCode":"seanad","uri":"https:\/\/data.oireachtas.ie\/ie\/oireachtas\/house\/seanad\/24"}}]}'
+    headers:
+      Cache-Control:
+      - no-cache, private
+      Connection:
+      - keep-alive
+      Content-Encoding:
+      - gzip
+      Content-Type:
+      - application/json
+      Date:
+      - Tue, 29 Jul 2025 22:32:18 GMT
+      Strict-Transport-Security:
+      - max-age=31536000; includeSubDomains
+      Transfer-Encoding:
+      - chunked
+      Vary:
+      - accept-encoding
+      - Origin
+      Via:
+      - 1.1 c14ab6e34fd6c0be5c53b4826c6c271a.cloudfront.net (CloudFront)
+      X-Amz-Cf-Id:
+      - KKHMMUv6j0dwdPW3gn5yTuzvaGjUal4hDBPt6x3TXtBGlphKHI0i1Q==
+      X-Amz-Cf-Pop:
+      - LHR5-P2
+      X-Cache:
+      - Miss from cloudfront
+    status:
+      code: 200
+      message: OK
+version: 1

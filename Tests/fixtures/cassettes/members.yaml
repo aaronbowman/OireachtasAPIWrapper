@@ -1,0 +1,207 @@
+interactions:
+- request:
+    body: null
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      User-Agent:
+      - python-requests/2.32.4
+    method: GET
+    uri: https://api.oireachtas.ie/v1/members
+  response:
+    body:
+      string: '{"head":{"counts":{"memberCount":1927,"resultCount":1927}},"results":[{"member":{"gender":"","uri":"https:\/\/data.oireachtas.ie\/ie\/oireachtas\/member\/id\/Henry-J-J-Abbott.D.1987-03-10","pId":"HenryJJAbbott","firstName":"Henry
+        J. J.","lastName":"Abbott","image":false,"wikiTitle":null,"memberships":[{"membership":{"house":{"uri":"https:\/\/data.oireachtas.ie\/ie\/oireachtas\/house\/dail\/25","houseCode":"dail","houseNo":"25","chamberType":"house","showAs":"25th
+        D\u00e1il"},"represents":[{"represent":{"representCode":"Longford-Westmeath","uri":"https:\/\/data.oireachtas.ie\/ie\/oireachtas\/house\/dail\/25\/constituency\/Longford-Westmeath","representType":"constituency","showAs":"Longford-Westmeath"}}],"uri":"https:\/\/data.oireachtas.ie\/ie\/oireachtas\/member\/id\/Henry-J-J-Abbott.D.1987-03-10\/house\/dail\/25","dateRange":{"end":"1989-05-25","start":"1987-03-10"},"committees":[],"parties":[{"party":{"partyCode":"Fianna_F\u00e1il","uri":"https:\/\/data.oireachtas.ie\/ie\/oireachtas\/party\/dail\/25\/Fianna_F\u00e1il","dateRange":{"end":"1989-05-25","start":"1987-02-17"},"showAs":"Fianna
+        F\u00e1il"}}],"offices":[]}}],"dateOfDeath":null,"fullName":"Henry J. J. Abbott","memberCode":"Henry-J-J-Abbott.D.1987-03-10","showAs":"Henry
+        J. J. Abbott"}},{"member":{"gender":"","uri":"https:\/\/data.oireachtas.ie\/ie\/oireachtas\/member\/id\/Caroline-Acheson.D.1981-06-30","pId":"CarrieAcheson","firstName":"Caroline","lastName":"Acheson","image":false,"wikiTitle":null,"memberships":[{"membership":{"house":{"uri":"https:\/\/data.oireachtas.ie\/ie\/oireachtas\/house\/dail\/22","houseCode":"dail","houseNo":"22","chamberType":"house","showAs":"22nd
+        D\u00e1il"},"represents":[{"represent":{"representCode":"Tipperary-South","uri":"https:\/\/data.oireachtas.ie\/ie\/oireachtas\/house\/dail\/22\/constituency\/Tipperary-South","representType":"constituency","showAs":"Tipperary
+        South"}}],"uri":"https:\/\/data.oireachtas.ie\/ie\/oireachtas\/member\/id\/Caroline-Acheson.D.1981-06-30\/house\/dail\/22","dateRange":{"end":"1982-02-27","start":"1981-06-30"},"committees":[],"parties":[{"party":{"partyCode":"Fianna_F\u00e1il","uri":"https:\/\/data.oireachtas.ie\/ie\/oireachtas\/party\/dail\/22\/Fianna_F\u00e1il","dateRange":{"end":"1982-02-27","start":"1981-06-11"},"showAs":"Fianna
+        F\u00e1il"}}],"offices":[]}}],"dateOfDeath":null,"fullName":"Caroline Acheson","memberCode":"Caroline-Acheson.D.1981-06-30","showAs":"Caroline
+        Acheson"}},{"member":{"gender":"","uri":"https:\/\/data.oireachtas.ie\/ie\/oireachtas\/member\/id\/Gerry-Adams.D.2011-03-09","pId":"GerryAdams","firstName":"Gerry","lastName":"Adams","image":false,"wikiTitle":null,"memberships":[{"membership":{"house":{"uri":"https:\/\/data.oireachtas.ie\/ie\/oireachtas\/house\/dail\/32","houseCode":"dail","houseNo":"32","chamberType":"house","showAs":"32nd
+        D\u00e1il"},"represents":[{"represent":{"representCode":"Louth","uri":"https:\/\/data.oireachtas.ie\/ie\/oireachtas\/house\/dail\/32\/constituency\/Louth","representType":"constituency","showAs":"Louth"}}],"uri":"https:\/\/data.oireachtas.ie\/ie\/oireachtas\/member\/id\/Gerry-Adams.D.2011-03-09\/house\/dail\/32","dateRange":{"end":"2020-01-14","start":"2016-03-10"},"committees":[],"parties":[{"party":{"partyCode":"Sinn_F\u00e9in","uri":"https:\/\/data.oireachtas.ie\/ie\/oireachtas\/party\/dail\/32\/Sinn_F\u00e9in","dateRange":{"end":"2020-01-14","start":"2016-03-10"},"showAs":"Sinn
+        F\u00e9in"}}],"offices":[]}},{"membership":{"house":{"uri":"https:\/\/data.oireachtas.ie\/ie\/oireachtas\/house\/dail\/31","houseCode":"dail","houseNo":"31","chamberType":"house","showAs":"31st
+        D\u00e1il"},"represents":[{"represent":{"representCode":"Louth","uri":"https:\/\/data.oireachtas.ie\/ie\/oireachtas\/house\/dail\/31\/constituency\/Louth","representType":"constituency","showAs":"Louth"}}],"uri":"https:\/\/data.oireachtas.ie\/ie\/oireachtas\/member\/id\/Gerry-Adams.D.2011-03-09\/house\/dail\/31","dateRange":{"end":"2016-03-09","start":"2011-03-09"},"committees":[],"parties":[{"party":{"partyCode":"Sinn_F\u00e9in","uri":"https:\/\/data.oireachtas.ie\/ie\/oireachtas\/party\/dail\/31\/Sinn_F\u00e9in","dateRange":{"end":"2016-03-09","start":"2011-02-25"},"showAs":"Sinn
+        F\u00e9in"}}],"offices":[]}}],"dateOfDeath":null,"fullName":"Gerry Adams","memberCode":"Gerry-Adams.D.2011-03-09","showAs":"Gerry
+        Adams"}},{"member":{"gender":"","uri":"https:\/\/data.oireachtas.ie\/ie\/oireachtas\/member\/id\/Patrick-Agnew.D.1981-06-30","pId":"PatrickAgnew","firstName":"Patrick","lastName":"Agnew","image":false,"wikiTitle":null,"memberships":[{"membership":{"house":{"uri":"https:\/\/data.oireachtas.ie\/ie\/oireachtas\/house\/dail\/22","houseCode":"dail","houseNo":"22","chamberType":"house","showAs":"22nd
+        D\u00e1il"},"represents":[{"represent":{"representCode":"Louth","uri":"https:\/\/data.oireachtas.ie\/ie\/oireachtas\/house\/dail\/22\/constituency\/Louth","representType":"constituency","showAs":"Louth"}}],"uri":"https:\/\/data.oireachtas.ie\/ie\/oireachtas\/member\/id\/Patrick-Agnew.D.1981-06-30\/house\/dail\/22","dateRange":{"end":"1982-02-27","start":"1981-06-30"},"committees":[],"parties":[{"party":{"partyCode":"Independent","uri":"https:\/\/data.oireachtas.ie\/ie\/oireachtas\/party\/dail\/22\/Independent","dateRange":{"end":"1982-02-27","start":"1981-06-11"},"showAs":"Independent"}}],"offices":[]}}],"dateOfDeath":null,"fullName":"Patrick
+        Agnew","memberCode":"Patrick-Agnew.D.1981-06-30","showAs":"Patrick Agnew"}},{"member":{"memberCode":"Garret-Ahearn.S.2020-03-30","uri":"https:\/\/data.oireachtas.ie\/ie\/oireachtas\/member\/id\/Garret-Ahearn.S.2020-03-30","memberships":[{"membership":{"committees":[{"memberDateRange":{"end":"2024-11-08
+        00:00:00+00:00","start":"2020-09-25 00:00:00+00:00"},"mainStatus":"Archived","status":"Archived","houseCode":"dail","serviceUnit":"Committees''
+        Secretariat","committeeID":126,"committeeName":[{"dateRange":{"end":null,"start":"2020-07-28
+        00:00:00+00:00"},"nameEn":"Joint Committee on Enterprise, Trade and Employment","nameGa":"An
+        Comhchoiste um Fhiontair, Tr\u00e1d\u00e1il agus Fosta\u00edocht"}],"uri":"https:\/\/data.oireachtas.ie\/ie\/oireachtas\/committee\/dail\/33\/joint_committee_on_enterprise_trade_and_employment","committeeCode":"BUJ","role":{"title":"Leas-Chathaoirleach","dateRange":{"end":null,"start":"2023-05-03
+        00:00:00+00:00"}},"committeeType":["Shadow Department"],"houseNo":33,"committeeDateRange":{"end":"2024-11-08
+        00:00:00+00:00","start":"2020-09-18 00:00:00+00:00"},"expiryType":"Sessional"}],"uri":"https:\/\/data.oireachtas.ie\/ie\/oireachtas\/member\/id\/Garret-Ahearn.S.2020-03-30\/house\/seanad\/26","represents":[{"represent":{"representCode":"Administrative-Panel","uri":"https:\/\/data.oireachtas.ie\/ie\/oireachtas\/house\/seanad\/26\/panel\/Administrative-Panel","representType":"panel","showAs":"Administrative
+        Panel"}}],"parties":[{"party":{"partyCode":"Fine_Gael","dateRange":{"end":"2025-01-29","start":"2020-03-30"},"showAs":"Fine
+        Gael","uri":"https:\/\/data.oireachtas.ie\/ie\/oireachtas\/party\/seanad\/26\/Fine_Gael"}}],"offices":[],"dateRange":{"end":"2025-01-29","start":"2020-03-30"},"house":{"uri":"https:\/\/data.oireachtas.ie\/ie\/oireachtas\/house\/seanad\/26","houseNo":"26","houseCode":"seanad","showAs":"26th
+        Seanad","chamberType":"house"}}},{"membership":{"committees":[{"memberDateRange":{"end":null,"start":"2025-02-26
+        00:00:00+00:00"},"mainStatus":"Live","status":"Live - Primary","serviceUnit":"Seanad
+        Office","committeeID":248,"committeeName":[{"dateRange":{"end":null,"start":"2025-01-29
+        00:00:00+00:00"},"nameEn":"Committee on Parliamentary Privileges and Oversight
+        (Seanad \u00c9ireann)","nameGa":"An Coiste um Pribhl\u00e9id\u00ed Parlaiminteacha
+        agus Formhaoirsi\u00fa (Seanad \u00c9ireann)"}],"uri":"https:\/\/data.oireachtas.ie\/ie\/oireachtas\/committee\/seanad\/27\/committee_on_parliamentary_privileges_and_oversight_seanad_eireann","committeeCode":"248","role":[],"committeeType":["Parliamentary
+        Regulation and Reform"],"committeeDateRange":{"end":null,"start":"2025-02-12
+        00:00:00+00:00"},"expiryType":"Standing"},{"memberDateRange":{"end":null,"start":"2025-02-26
+        00:00:00+00:00"},"mainStatus":"Live","status":"Live - Primary","serviceUnit":"Seanad
+        Office","committeeID":249,"committeeName":[{"dateRange":{"end":null,"start":"2025-01-29
+        00:00:00+00:00"},"nameEn":"Committee of Selection (Seanad \u00c9ireann)","nameGa":"An
+        Coiste Roghn\u00f3ireachta (Seanad \u00c9ireann)"}],"uri":"https:\/\/data.oireachtas.ie\/ie\/oireachtas\/committee\/seanad\/27\/committee_of_selection_seanad_eireann","committeeCode":"249","role":[],"committeeType":["Parliamentary
+        Business and Committee Membership"],"committeeDateRange":{"end":null,"start":"2025-02-12
+        00:00:00+00:00"},"expiryType":"Standing"},{"memberDateRange":{"end":null,"start":"2025-05-13
+        00:00:00+00:00"},"mainStatus":"Live","status":"Live - Primary","houseCode":"dail","serviceUnit":"Committees''
+        Secretariat","committeeID":265,"committeeName":[{"dateRange":{"end":null,"start":"2025-05-01
+        00:00:00+00:00"},"nameEn":"Joint Committee on Arts, Media, Communications,
+        Culture and Sport","nameGa":"An Comhchoiste um Eala\u00edona, Me\u00e1in,
+        Cumars\u00e1id, Cult\u00far agus Sp\u00f3rt "}],"uri":"https:\/\/data.oireachtas.ie\/ie\/oireachtas\/committee\/dail\/34\/joint_committee_on_arts_media_communications_culture_and_sport","committeeCode":"265","role":[],"committeeType":["Shadow
+        Department"],"houseNo":34,"committeeDateRange":{"end":null,"start":"2025-05-07
+        00:00:00+00:00"},"expiryType":"Sessional"},{"memberDateRange":{"end":null,"start":"2025-05-13
+        00:00:00+00:00"},"mainStatus":"Live","status":"Live - Primary","houseCode":"dail","serviceUnit":"Committees''
+        Secretariat","committeeID":292,"committeeName":[{"dateRange":{"end":null,"start":"2025-05-01
+        00:00:00+00:00"},"nameEn":"Joint Committee on Foreign Affairs and Trade","nameGa":"An
+        Comhchoiste um Ghn\u00f3tha\u00ed Eachtracha agus Tr\u00e1d\u00e1il"}],"uri":"https:\/\/data.oireachtas.ie\/ie\/oireachtas\/committee\/dail\/34\/joint_committee_on_foreign_affairs_and_trade","committeeCode":"FOJ","role":{"title":"Leas-Chathaoirleach","dateRange":{"end":null,"start":"2025-05-20
+        00:00:00+00:00"}},"committeeType":["Shadow Department"],"houseNo":34,"committeeDateRange":{"end":null,"start":"2025-05-07
+        00:00:00+00:00"},"expiryType":"Sessional"}],"uri":"https:\/\/data.oireachtas.ie\/ie\/oireachtas\/member\/id\/Garret-Ahearn.S.2020-03-30\/house\/seanad\/27","represents":[{"represent":{"representCode":"Administrative-Panel","uri":"https:\/\/data.oireachtas.ie\/ie\/oireachtas\/house\/seanad\/27\/panel\/Administrative-Panel","representType":"panel","showAs":"Administrative
+        Panel"}}],"parties":[{"party":{"partyCode":"Fine_Gael","dateRange":{"end":null,"start":"2025-01-29"},"showAs":"Fine
+        Gael","uri":"https:\/\/data.oireachtas.ie\/ie\/oireachtas\/party\/seanad\/27\/Fine_Gael"}}],"offices":[],"dateRange":{"end":null,"start":"2025-01-29"},"house":{"uri":"https:\/\/data.oireachtas.ie\/ie\/oireachtas\/house\/seanad\/27","houseNo":"27","houseCode":"seanad","showAs":"27th
+        Seanad","chamberType":"house"}}}],"wikiTitle":null,"pId":"GarretAhearn","fullName":"Garret
+        Ahearn","firstName":"Garret","dateOfDeath":null,"image":false,"gender":"","lastName":"Ahearn","showAs":"Garret
+        Ahearn"}},{"member":{"gender":"","uri":"https:\/\/data.oireachtas.ie\/ie\/oireachtas\/member\/id\/Theresa-Ahearn.D.1989-06-29","pId":"TheresaAhearn","firstName":"Theresa","lastName":"Ahearn","image":false,"wikiTitle":null,"memberships":[{"membership":{"house":{"uri":"https:\/\/data.oireachtas.ie\/ie\/oireachtas\/house\/dail\/28","houseCode":"dail","houseNo":"28","chamberType":"house","showAs":"28th
+        D\u00e1il"},"represents":[{"represent":{"representCode":"Tipperary-South","uri":"https:\/\/data.oireachtas.ie\/ie\/oireachtas\/house\/dail\/28\/constituency\/Tipperary-South","representType":"constituency","showAs":"Tipperary
+        South"}}],"uri":"https:\/\/data.oireachtas.ie\/ie\/oireachtas\/member\/id\/Theresa-Ahearn.D.1989-06-29\/house\/dail\/28","dateRange":{"end":"2000-09-20","start":"1997-06-26"},"committees":[],"parties":[{"party":{"partyCode":"Fine_Gael","uri":"https:\/\/data.oireachtas.ie\/ie\/oireachtas\/party\/dail\/28\/Fine_Gael","dateRange":{"end":"2000-09-20","start":"1997-06-06"},"showAs":"Fine
+        Gael"}}],"offices":[]}},{"membership":{"house":{"uri":"https:\/\/data.oireachtas.ie\/ie\/oireachtas\/house\/dail\/27","houseCode":"dail","houseNo":"27","chamberType":"house","showAs":"27th
+        D\u00e1il"},"represents":[{"represent":{"representCode":"Tipperary-South","uri":"https:\/\/data.oireachtas.ie\/ie\/oireachtas\/house\/dail\/27\/constituency\/Tipperary-South","representType":"constituency","showAs":"Tipperary
+        South"}}],"uri":"https:\/\/data.oireachtas.ie\/ie\/oireachtas\/member\/id\/Theresa-Ahearn.D.1989-06-29\/house\/dail\/27","dateRange":{"end":"1997-05-15","start":"1992-12-14"},"committees":[],"parties":[{"party":{"partyCode":"Fine_Gael","uri":"https:\/\/data.oireachtas.ie\/ie\/oireachtas\/party\/dail\/27\/Fine_Gael","dateRange":{"end":"1997-05-15","start":"1992-11-25"},"showAs":"Fine
+        Gael"}}],"offices":[]}},{"membership":{"house":{"uri":"https:\/\/data.oireachtas.ie\/ie\/oireachtas\/house\/dail\/26","houseCode":"dail","houseNo":"26","chamberType":"house","showAs":"26th
+        D\u00e1il"},"represents":[{"represent":{"representCode":"Tipperary-South","uri":"https:\/\/data.oireachtas.ie\/ie\/oireachtas\/house\/dail\/26\/constituency\/Tipperary-South","representType":"constituency","showAs":"Tipperary
+        South"}}],"uri":"https:\/\/data.oireachtas.ie\/ie\/oireachtas\/member\/id\/Theresa-Ahearn.D.1989-06-29\/house\/dail\/26","dateRange":{"end":"1992-11-05","start":"1989-06-29"},"committees":[],"parties":[{"party":{"partyCode":"Fine_Gael","uri":"https:\/\/data.oireachtas.ie\/ie\/oireachtas\/party\/dail\/26\/Fine_Gael","dateRange":{"end":"1992-11-05","start":"1989-06-15"},"showAs":"Fine
+        Gael"}}],"offices":[]}}],"dateOfDeath":null,"fullName":"Theresa Ahearn","memberCode":"Theresa-Ahearn.D.1989-06-29","showAs":"Theresa
+        Ahearn"}},{"member":{"gender":"","uri":"https:\/\/data.oireachtas.ie\/ie\/oireachtas\/member\/id\/Bertie-Ahern.D.1977-07-05","pId":"Bertie","firstName":"Bertie","lastName":"Ahern","image":false,"wikiTitle":null,"memberships":[{"membership":{"house":{"uri":"https:\/\/data.oireachtas.ie\/ie\/oireachtas\/house\/dail\/30","houseCode":"dail","houseNo":"30","chamberType":"house","showAs":"30th
+        D\u00e1il"},"represents":[{"represent":{"representCode":"Dublin-Central","uri":"https:\/\/data.oireachtas.ie\/ie\/oireachtas\/house\/dail\/30\/constituency\/Dublin-Central","representType":"constituency","showAs":"Dublin
+        Central"}}],"uri":"https:\/\/data.oireachtas.ie\/ie\/oireachtas\/member\/id\/Bertie-Ahern.D.1977-07-05\/house\/dail\/30","dateRange":{"end":"2011-02-01","start":"2007-06-14"},"committees":[],"parties":[{"party":{"partyCode":"Fianna_F\u00e1il","uri":"https:\/\/data.oireachtas.ie\/ie\/oireachtas\/party\/dail\/30\/Fianna_F\u00e1il","dateRange":{"end":"2011-02-01","start":"2007-05-24"},"showAs":"Fianna
+        F\u00e1il"}}],"offices":[{"office":{"officeName":{"uri":null,"showAs":"Taoiseach"},"dateRange":{"end":"2008-05-07","start":"2007-06-14"}}}]}},{"membership":{"house":{"uri":"https:\/\/data.oireachtas.ie\/ie\/oireachtas\/house\/dail\/29","houseCode":"dail","houseNo":"29","chamberType":"house","showAs":"29th
+        D\u00e1il"},"represents":[{"represent":{"representCode":"Dublin-Central","uri":"https:\/\/data.oireachtas.ie\/ie\/oireachtas\/house\/dail\/29\/constituency\/Dublin-Central","representType":"constituency","showAs":"Dublin
+        Central"}}],"uri":"https:\/\/data.oireachtas.ie\/ie\/oireachtas\/member\/id\/Bertie-Ahern.D.1977-07-05\/house\/dail\/29","dateRange":{"end":"2007-04-30","start":"2002-06-06"},"committees":[],"parties":[{"party":{"partyCode":"Fianna_F\u00e1il","uri":"https:\/\/data.oireachtas.ie\/ie\/oireachtas\/party\/dail\/29\/Fianna_F\u00e1il","dateRange":{"end":"2007-04-30","start":"2002-05-17"},"showAs":"Fianna
+        F\u00e1il"}}],"offices":[{"office":{"officeName":{"uri":null,"showAs":"Taoiseach"},"dateRange":{"end":"2007-06-14","start":"2002-06-06"}}}]}},{"membership":{"house":{"uri":"https:\/\/data.oireachtas.ie\/ie\/oireachtas\/house\/dail\/28","houseCode":"dail","houseNo":"28","chamberType":"house","showAs":"28th
+        D\u00e1il"},"represents":[{"represent":{"representCode":"Dublin-Central","uri":"https:\/\/data.oireachtas.ie\/ie\/oireachtas\/house\/dail\/28\/constituency\/Dublin-Central","representType":"constituency","showAs":"Dublin
+        Central"}}],"uri":"https:\/\/data.oireachtas.ie\/ie\/oireachtas\/member\/id\/Bertie-Ahern.D.1977-07-05\/house\/dail\/28","dateRange":{"end":"2002-04-25","start":"1997-06-26"},"committees":[],"parties":[{"party":{"partyCode":"Fianna_F\u00e1il","uri":"https:\/\/data.oireachtas.ie\/ie\/oireachtas\/party\/dail\/28\/Fianna_F\u00e1il","dateRange":{"end":"2002-04-25","start":"1997-06-06"},"showAs":"Fianna
+        F\u00e1il"}}],"offices":[{"office":{"officeName":{"uri":null,"showAs":"Taoiseach"},"dateRange":{"end":"2002-06-06","start":"1997-06-26"}}}]}},{"membership":{"house":{"uri":"https:\/\/data.oireachtas.ie\/ie\/oireachtas\/house\/dail\/27","houseCode":"dail","houseNo":"27","chamberType":"house","showAs":"27th
+        D\u00e1il"},"represents":[{"represent":{"representCode":"Dublin-Central","uri":"https:\/\/data.oireachtas.ie\/ie\/oireachtas\/house\/dail\/27\/constituency\/Dublin-Central","representType":"constituency","showAs":"Dublin
+        Central"}}],"uri":"https:\/\/data.oireachtas.ie\/ie\/oireachtas\/member\/id\/Bertie-Ahern.D.1977-07-05\/house\/dail\/27","dateRange":{"end":"1997-05-15","start":"1992-12-14"},"committees":[],"parties":[{"party":{"partyCode":"Fianna_F\u00e1il","uri":"https:\/\/data.oireachtas.ie\/ie\/oireachtas\/party\/dail\/27\/Fianna_F\u00e1il","dateRange":{"end":"1997-05-15","start":"1992-11-25"},"showAs":"Fianna
+        F\u00e1il"}}],"offices":[{"office":{"officeName":{"uri":null,"showAs":"Minister
+        for Industry and Commerce"},"dateRange":{"end":"1993-01-12","start":"1993-01-04"}}},{"office":{"officeName":{"uri":null,"showAs":"T\u00e1naiste"},"dateRange":{"end":"1994-12-15","start":"1994-11-17"}}},{"office":{"officeName":{"uri":null,"showAs":"Minister
+        for Arts, Culture and the Gaeltacht"},"dateRange":{"end":"1994-12-15","start":"1994-11-18"}}},{"office":{"officeName":{"uri":null,"showAs":"Minister
+        for Finance"},"dateRange":{"end":"1994-12-15","start":"1992-12-14"}}}]}},{"membership":{"house":{"uri":"https:\/\/data.oireachtas.ie\/ie\/oireachtas\/house\/dail\/26","houseCode":"dail","houseNo":"26","chamberType":"house","showAs":"26th
+        D\u00e1il"},"represents":[{"represent":{"representCode":"Dublin-Central","uri":"https:\/\/data.oireachtas.ie\/ie\/oireachtas\/house\/dail\/26\/constituency\/Dublin-Central","representType":"constituency","showAs":"Dublin
+        Central"}}],"uri":"https:\/\/data.oireachtas.ie\/ie\/oireachtas\/member\/id\/Bertie-Ahern.D.1977-07-05\/house\/dail\/26","dateRange":{"end":"1992-11-05","start":"1989-06-29"},"committees":[],"parties":[{"party":{"partyCode":"Fianna_F\u00e1il","uri":"https:\/\/data.oireachtas.ie\/ie\/oireachtas\/party\/dail\/26\/Fianna_F\u00e1il","dateRange":{"end":"1992-11-05","start":"1989-06-15"},"showAs":"Fianna
+        F\u00e1il"}}],"offices":[{"office":{"officeName":{"uri":null,"showAs":"Minister
+        for Finance"},"dateRange":{"end":"1992-12-14","start":"1991-11-14"}}},{"office":{"officeName":{"uri":null,"showAs":"Minister
+        for Labour"},"dateRange":{"end":"1991-11-14","start":"1989-06-29"}}}]}},{"membership":{"house":{"uri":"https:\/\/data.oireachtas.ie\/ie\/oireachtas\/house\/dail\/25","houseCode":"dail","houseNo":"25","chamberType":"house","showAs":"25th
+        D\u00e1il"},"represents":[{"represent":{"representCode":"Dublin-Central","uri":"https:\/\/data.oireachtas.ie\/ie\/oireachtas\/house\/dail\/25\/constituency\/Dublin-Central","representType":"constituency","showAs":"Dublin
+        Central"}}],"uri":"https:\/\/data.oireachtas.ie\/ie\/oireachtas\/member\/id\/Bertie-Ahern.D.1977-07-05\/house\/dail\/25","dateRange":{"end":"1989-05-25","start":"1987-03-10"},"committees":[],"parties":[{"party":{"partyCode":"Fianna_F\u00e1il","uri":"https:\/\/data.oireachtas.ie\/ie\/oireachtas\/party\/dail\/25\/Fianna_F\u00e1il","dateRange":{"end":"1989-05-25","start":"1987-02-17"},"showAs":"Fianna
+        F\u00e1il"}}],"offices":[{"office":{"officeName":{"uri":null,"showAs":"Minister
+        for Labour"},"dateRange":{"end":"1989-06-29","start":"1987-03-10"}}}]}},{"membership":{"house":{"uri":"https:\/\/data.oireachtas.ie\/ie\/oireachtas\/house\/dail\/24","houseCode":"dail","houseNo":"24","chamberType":"house","showAs":"24th
+        D\u00e1il"},"represents":[{"represent":{"representCode":"Dublin-Central","uri":"https:\/\/data.oireachtas.ie\/ie\/oireachtas\/house\/dail\/24\/constituency\/Dublin-Central","representType":"constituency","showAs":"Dublin
+        Central"}}],"uri":"https:\/\/data.oireachtas.ie\/ie\/oireachtas\/member\/id\/Bertie-Ahern.D.1977-07-05\/house\/dail\/24","dateRange":{"end":"1987-01-21","start":"1982-12-14"},"committees":[],"parties":[{"party":{"partyCode":"Fianna_F\u00e1il","uri":"https:\/\/data.oireachtas.ie\/ie\/oireachtas\/party\/dail\/24\/Fianna_F\u00e1il","dateRange":{"end":"1987-01-21","start":"1982-11-24"},"showAs":"Fianna
+        F\u00e1il"}}],"offices":[]}},{"membership":{"house":{"uri":"https:\/\/data.oireachtas.ie\/ie\/oireachtas\/house\/dail\/23","houseCode":"dail","houseNo":"23","chamberType":"house","showAs":"23rd
+        D\u00e1il"},"represents":[{"represent":{"representCode":"Dublin-Central","uri":"https:\/\/data.oireachtas.ie\/ie\/oireachtas\/house\/dail\/23\/constituency\/Dublin-Central","representType":"constituency","showAs":"Dublin
+        Central"}}],"uri":"https:\/\/data.oireachtas.ie\/ie\/oireachtas\/member\/id\/Bertie-Ahern.D.1977-07-05\/house\/dail\/23","dateRange":{"end":"1982-11-04","start":"1982-03-09"},"committees":[],"parties":[{"party":{"partyCode":"Fianna_F\u00e1il","uri":"https:\/\/data.oireachtas.ie\/ie\/oireachtas\/party\/dail\/23\/Fianna_F\u00e1il","dateRange":{"end":"1982-11-04","start":"1982-02-18"},"showAs":"Fianna
+        F\u00e1il"}}],"offices":[]}},{"membership":{"house":{"uri":"https:\/\/data.oireachtas.ie\/ie\/oireachtas\/house\/dail\/22","houseCode":"dail","houseNo":"22","chamberType":"house","showAs":"22nd
+        D\u00e1il"},"represents":[{"represent":{"representCode":"Dublin-Central","uri":"https:\/\/data.oireachtas.ie\/ie\/oireachtas\/house\/dail\/22\/constituency\/Dublin-Central","representType":"constituency","showAs":"Dublin
+        Central"}}],"uri":"https:\/\/data.oireachtas.ie\/ie\/oireachtas\/member\/id\/Bertie-Ahern.D.1977-07-05\/house\/dail\/22","dateRange":{"end":"1982-02-27","start":"1981-06-30"},"committees":[],"parties":[{"party":{"partyCode":"Fianna_F\u00e1il","uri":"https:\/\/data.oireachtas.ie\/ie\/oireachtas\/party\/dail\/22\/Fianna_F\u00e1il","dateRange":{"end":"1982-02-27","start":"1981-06-11"},"showAs":"Fianna
+        F\u00e1il"}}],"offices":[]}},{"membership":{"house":{"uri":"https:\/\/data.oireachtas.ie\/ie\/oireachtas\/house\/dail\/21","houseCode":"dail","houseNo":"21","chamberType":"house","showAs":"21st
+        D\u00e1il"},"represents":[{"represent":{"representCode":"Dublin-Finglas","uri":"https:\/\/data.oireachtas.ie\/ie\/oireachtas\/house\/dail\/21\/constituency\/Dublin-Finglas","representType":"constituency","showAs":"Dublin
+        Finglas"}}],"uri":"https:\/\/data.oireachtas.ie\/ie\/oireachtas\/member\/id\/Bertie-Ahern.D.1977-07-05\/house\/dail\/21","dateRange":{"end":"1981-05-21","start":"1977-07-05"},"committees":[],"parties":[{"party":{"partyCode":"Fianna_F\u00e1il","uri":"https:\/\/data.oireachtas.ie\/ie\/oireachtas\/party\/dail\/21\/Fianna_F\u00e1il","dateRange":{"end":"1981-05-21","start":"1977-06-16"},"showAs":"Fianna
+        F\u00e1il"}}],"offices":[]}}],"dateOfDeath":null,"fullName":"Bertie Ahern","memberCode":"Bertie-Ahern.D.1977-07-05","showAs":"Bertie
+        Ahern"}},{"member":{"memberCode":"Ciar\u00e1n-Ahern.D.2024-11-29","uri":"https:\/\/data.oireachtas.ie\/ie\/oireachtas\/member\/id\/Ciar\u00e1n-Ahern.D.2024-11-29","memberships":[{"membership":{"committees":[{"memberDateRange":{"end":null,"start":"2025-05-07
+        00:00:00+00:00"},"mainStatus":"Live","status":"Live - Primary","houseCode":"dail","serviceUnit":"Committees''
+        Secretariat","committeeID":283,"committeeName":[{"dateRange":{"end":null,"start":"2025-05-01
+        00:00:00+00:00"},"nameEn":"Joint Committee on Climate, Environment and Energy","nameGa":"An
+        Comhchoiste um Aer\u00e1id, Comhshaol agus Fuinneamh "}],"uri":"https:\/\/data.oireachtas.ie\/ie\/oireachtas\/committee\/dail\/34\/joint_committee_on_climate_environment_and_energy","committeeCode":"283","role":[],"committeeType":["Shadow
+        Department"],"houseNo":34,"committeeDateRange":{"end":null,"start":"2025-05-13
+        00:00:00+00:00"},"expiryType":"Sessional"},{"memberDateRange":{"end":null,"start":"2025-05-07
+        00:00:00+00:00"},"mainStatus":"Live","status":"Live - Primary","serviceUnit":"Committees''
+        Secretariat","committeeID":281,"committeeName":[{"dateRange":{"end":null,"start":"2025-05-01
+        00:00:00+00:00"},"nameEn":"Select Committee on Climate, Environment and Energy","nameGa":"An
+        Roghchoiste um Aer\u00e1id, Comhshaol agus Fuinneamh "}],"uri":"https:\/\/data.oireachtas.ie\/ie\/oireachtas\/committee\/dail\/34\/select_committee_on_climate_environment_and_energy","committeeCode":"281","role":[],"committeeType":["Shadow
+        Department"],"committeeDateRange":{"end":null,"start":"2025-04-30 00:00:00+00:00"},"expiryType":"Sessional"},{"memberDateRange":{"end":null,"start":"2025-05-07
+        00:00:00+00:00"},"mainStatus":"Live","status":"Live - Primary","serviceUnit":"Committees''
+        Secretariat","committeeID":237,"committeeName":[{"dateRange":{"end":null,"start":"2024-11-29
+        00:00:00+00:00"},"nameEn":"Committee on Members'' Interests of D\u00e1il \u00c9ireann","nameGa":"An
+        Coiste um Leasanna Chomhalta\u00ed Dh\u00e1il \u00c9ireann"}],"uri":"https:\/\/data.oireachtas.ie\/ie\/oireachtas\/committee\/dail\/34\/committee_on_members_interests_of_dail_eireann","committeeCode":"237","role":[],"committeeType":["Statutory"],"committeeDateRange":{"end":null,"start":"2024-12-18
+        00:00:00+00:00"},"expiryType":"Standing"}],"uri":"https:\/\/data.oireachtas.ie\/ie\/oireachtas\/member\/id\/Ciar\u00e1n-Ahern.D.2024-11-29\/house\/dail\/34","represents":[{"represent":{"representCode":"Dublin-South-West","uri":"https:\/\/data.oireachtas.ie\/ie\/oireachtas\/house\/dail\/34\/constituency\/Dublin-South-West","representType":"constituency","showAs":"Dublin
+        South-West"}}],"parties":[{"party":{"partyCode":"Labour_Party","dateRange":{"end":null,"start":"2024-11-29"},"showAs":"Labour
+        Party","uri":"https:\/\/data.oireachtas.ie\/ie\/oireachtas\/party\/dail\/34\/Labour_Party"}}],"offices":[],"dateRange":{"end":null,"start":"2024-11-29"},"house":{"uri":"https:\/\/data.oireachtas.ie\/ie\/oireachtas\/house\/dail\/34","houseNo":"34","houseCode":"dail","showAs":"34th
+        D\u00e1il","chamberType":"house"}}}],"wikiTitle":null,"pId":"CiaranAhern","fullName":"Ciar\u00e1n
+        Ahern","firstName":"Ciar\u00e1n","dateOfDeath":null,"image":false,"gender":"","lastName":"Ahern","showAs":"Ciar\u00e1n
+        Ahern"}},{"member":{"gender":"","uri":"https:\/\/data.oireachtas.ie\/ie\/oireachtas\/member\/id\/Dermot-Ahern.D.1987-03-10","pId":"DermotAhern","firstName":"Dermot","lastName":"Ahern","image":false,"wikiTitle":null,"memberships":[{"membership":{"house":{"uri":"https:\/\/data.oireachtas.ie\/ie\/oireachtas\/house\/dail\/30","houseCode":"dail","houseNo":"30","chamberType":"house","showAs":"30th
+        D\u00e1il"},"represents":[{"represent":{"representCode":"Louth","uri":"https:\/\/data.oireachtas.ie\/ie\/oireachtas\/house\/dail\/30\/constituency\/Louth","representType":"constituency","showAs":"Louth"}}],"uri":"https:\/\/data.oireachtas.ie\/ie\/oireachtas\/member\/id\/Dermot-Ahern.D.1987-03-10\/house\/dail\/30","dateRange":{"end":"2011-02-01","start":"2007-06-14"},"committees":[],"parties":[{"party":{"partyCode":"Fianna_F\u00e1il","uri":"https:\/\/data.oireachtas.ie\/ie\/oireachtas\/party\/dail\/30\/Fianna_F\u00e1il","dateRange":{"end":"2011-02-01","start":"2007-05-24"},"showAs":"Fianna
+        F\u00e1il"}}],"offices":[{"office":{"officeName":{"uri":null,"showAs":"Minister
+        for Justice and Law Reform"},"dateRange":{"end":"2011-01-19","start":"2010-03-23"}}},{"office":{"officeName":{"uri":null,"showAs":"Minister
+        for Justice, Equality and Law Reform"},"dateRange":{"end":"2010-03-23","start":"2008-05-07"}}},{"office":{"officeName":{"uri":null,"showAs":"Minister
+        for Foreign Affairs"},"dateRange":{"end":"2008-05-07","start":"2007-06-14"}}}]}},{"membership":{"house":{"uri":"https:\/\/data.oireachtas.ie\/ie\/oireachtas\/house\/dail\/29","houseCode":"dail","houseNo":"29","chamberType":"house","showAs":"29th
+        D\u00e1il"},"represents":[{"represent":{"representCode":"Louth","uri":"https:\/\/data.oireachtas.ie\/ie\/oireachtas\/house\/dail\/29\/constituency\/Louth","representType":"constituency","showAs":"Louth"}}],"uri":"https:\/\/data.oireachtas.ie\/ie\/oireachtas\/member\/id\/Dermot-Ahern.D.1987-03-10\/house\/dail\/29","dateRange":{"end":"2007-04-30","start":"2002-06-06"},"committees":[],"parties":[{"party":{"partyCode":"Fianna_F\u00e1il","uri":"https:\/\/data.oireachtas.ie\/ie\/oireachtas\/party\/dail\/29\/Fianna_F\u00e1il","dateRange":{"end":"2007-04-30","start":"2002-05-17"},"showAs":"Fianna
+        F\u00e1il"}}],"offices":[{"office":{"officeName":{"uri":null,"showAs":"Minister
+        for Social, Community and Family Affairs"},"dateRange":{"end":"2002-06-17","start":"2002-06-06"}}},{"office":{"officeName":{"uri":null,"showAs":"Minister
+        for Communications, Marine and Natural Resources"},"dateRange":{"end":"2004-09-29","start":"2002-06-06"}}},{"office":{"officeName":{"uri":null,"showAs":"Minister
+        for Foreign Affairs"},"dateRange":{"end":"2007-06-14","start":"2004-09-29"}}}]}},{"membership":{"house":{"uri":"https:\/\/data.oireachtas.ie\/ie\/oireachtas\/house\/dail\/28","houseCode":"dail","houseNo":"28","chamberType":"house","showAs":"28th
+        D\u00e1il"},"represents":[{"represent":{"representCode":"Louth","uri":"https:\/\/data.oireachtas.ie\/ie\/oireachtas\/house\/dail\/28\/constituency\/Louth","representType":"constituency","showAs":"Louth"}}],"uri":"https:\/\/data.oireachtas.ie\/ie\/oireachtas\/member\/id\/Dermot-Ahern.D.1987-03-10\/house\/dail\/28","dateRange":{"end":"2002-04-25","start":"1997-06-26"},"committees":[],"parties":[{"party":{"partyCode":"Fianna_F\u00e1il","uri":"https:\/\/data.oireachtas.ie\/ie\/oireachtas\/party\/dail\/28\/Fianna_F\u00e1il","dateRange":{"end":"2002-04-25","start":"1997-06-06"},"showAs":"Fianna
+        F\u00e1il"}}],"offices":[{"office":{"officeName":{"uri":null,"showAs":"Minister
+        for Social Welfare"},"dateRange":{"end":"1997-07-12","start":"1997-06-26"}}},{"office":{"officeName":{"uri":null,"showAs":"Minister
+        for Social, Community and Family Affairs"},"dateRange":{"end":"2002-06-06","start":"1997-07-12"}}}]}},{"membership":{"house":{"uri":"https:\/\/data.oireachtas.ie\/ie\/oireachtas\/house\/dail\/27","houseCode":"dail","houseNo":"27","chamberType":"house","showAs":"27th
+        D\u00e1il"},"represents":[{"represent":{"representCode":"Louth","uri":"https:\/\/data.oireachtas.ie\/ie\/oireachtas\/house\/dail\/27\/constituency\/Louth","representType":"constituency","showAs":"Louth"}}],"uri":"https:\/\/data.oireachtas.ie\/ie\/oireachtas\/member\/id\/Dermot-Ahern.D.1987-03-10\/house\/dail\/27","dateRange":{"end":"1997-05-15","start":"1992-12-14"},"committees":[],"parties":[{"party":{"partyCode":"Fianna_F\u00e1il","uri":"https:\/\/data.oireachtas.ie\/ie\/oireachtas\/party\/dail\/27\/Fianna_F\u00e1il","dateRange":{"end":"1997-05-15","start":"1992-11-25"},"showAs":"Fianna
+        F\u00e1il"}}],"offices":[]}},{"membership":{"house":{"uri":"https:\/\/data.oireachtas.ie\/ie\/oireachtas\/house\/dail\/26","houseCode":"dail","houseNo":"26","chamberType":"house","showAs":"26th
+        D\u00e1il"},"represents":[{"represent":{"representCode":"Louth","uri":"https:\/\/data.oireachtas.ie\/ie\/oireachtas\/house\/dail\/26\/constituency\/Louth","representType":"constituency","showAs":"Louth"}}],"uri":"https:\/\/data.oireachtas.ie\/ie\/oireachtas\/member\/id\/Dermot-Ahern.D.1987-03-10\/house\/dail\/26","dateRange":{"end":"1992-11-05","start":"1989-06-29"},"committees":[],"parties":[{"party":{"partyCode":"Fianna_F\u00e1il","uri":"https:\/\/data.oireachtas.ie\/ie\/oireachtas\/party\/dail\/26\/Fianna_F\u00e1il","dateRange":{"end":"1992-11-05","start":"1989-06-15"},"showAs":"Fianna
+        F\u00e1il"}}],"offices":[]}},{"membership":{"house":{"uri":"https:\/\/data.oireachtas.ie\/ie\/oireachtas\/house\/dail\/25","houseCode":"dail","houseNo":"25","chamberType":"house","showAs":"25th
+        D\u00e1il"},"represents":[{"represent":{"representCode":"Louth","uri":"https:\/\/data.oireachtas.ie\/ie\/oireachtas\/house\/dail\/25\/constituency\/Louth","representType":"constituency","showAs":"Louth"}}],"uri":"https:\/\/data.oireachtas.ie\/ie\/oireachtas\/member\/id\/Dermot-Ahern.D.1987-03-10\/house\/dail\/25","dateRange":{"end":"1989-05-25","start":"1987-03-10"},"committees":[],"parties":[{"party":{"partyCode":"Fianna_F\u00e1il","uri":"https:\/\/data.oireachtas.ie\/ie\/oireachtas\/party\/dail\/25\/Fianna_F\u00e1il","dateRange":{"end":"1989-05-25","start":"1987-02-17"},"showAs":"Fianna
+        F\u00e1il"}}],"offices":[]}}],"dateOfDeath":null,"fullName":"Dermot Ahern","memberCode":"Dermot-Ahern.D.1987-03-10","showAs":"Dermot
+        Ahern"}},{"member":{"gender":"","uri":"https:\/\/data.oireachtas.ie\/ie\/oireachtas\/member\/id\/Kathleen-Ahern.S.1964-11-25","pId":"KitAhern","firstName":"Kathleen","lastName":"Ahern","image":false,"wikiTitle":null,"memberships":[{"membership":{"house":{"uri":"https:\/\/data.oireachtas.ie\/ie\/oireachtas\/house\/dail\/21","houseCode":"dail","houseNo":"21","chamberType":"house","showAs":"21st
+        D\u00e1il"},"represents":[{"represent":{"representCode":"Kerry-North","uri":"https:\/\/data.oireachtas.ie\/ie\/oireachtas\/house\/dail\/21\/constituency\/Kerry-North","representType":"constituency","showAs":"Kerry
+        North"}}],"uri":"https:\/\/data.oireachtas.ie\/ie\/oireachtas\/member\/id\/Kathleen-Ahern.S.1964-11-25\/house\/dail\/21","dateRange":{"end":"1981-05-21","start":"1977-07-05"},"committees":[],"parties":[{"party":{"partyCode":"Fianna_F\u00e1il","uri":"https:\/\/data.oireachtas.ie\/ie\/oireachtas\/party\/dail\/21\/Fianna_F\u00e1il","dateRange":{"end":"1981-05-21","start":"1977-06-16"},"showAs":"Fianna
+        F\u00e1il"}}],"offices":[]}},{"membership":{"house":{"uri":"https:\/\/data.oireachtas.ie\/ie\/oireachtas\/house\/seanad\/13","houseCode":"seanad","houseNo":"13","chamberType":"house","showAs":"13th
+        Seanad"},"represents":[{"represent":{"representCode":"Cultural-and-Educational-Panel","uri":"https:\/\/data.oireachtas.ie\/ie\/oireachtas\/house\/seanad\/13\/panel\/Cultural-and-Educational-Panel","representType":"panel","showAs":"Cultural
+        and Educational Panel"}}],"uri":"https:\/\/data.oireachtas.ie\/ie\/oireachtas\/member\/id\/Kathleen-Ahern.S.1964-11-25\/house\/seanad\/13","dateRange":{"end":"1977-05-26","start":"1973-06-01"},"committees":[],"parties":[{"party":{"partyCode":"Fianna_F\u00e1il","uri":"https:\/\/data.oireachtas.ie\/ie\/oireachtas\/party\/seanad\/13\/Fianna_F\u00e1il","dateRange":{"end":"1977-05-26","start":"1973-06-01"},"showAs":"Fianna
+        F\u00e1il"}}],"offices":[]}},{"membership":{"house":{"uri":"https:\/\/data.oireachtas.ie\/ie\/oireachtas\/house\/seanad\/12","houseCode":"seanad","houseNo":"12","chamberType":"house","showAs":"12th
+        Seanad"},"represents":[{"represent":{"representCode":"Cultural-and-Educational-Panel","uri":"https:\/\/data.oireachtas.ie\/ie\/oireachtas\/house\/seanad\/12\/panel\/Cultural-and-Educational-Panel","representType":"panel","showAs":"Cultural
+        and Educational Panel"}}],"uri":"https:\/\/data.oireachtas.ie\/ie\/oireachtas\/member\/id\/Kathleen-Ahern.S.1964-11-25\/house\/seanad\/12","dateRange":{"end":"1973-03-30","start":"1969-11-05"},"committees":[],"parties":[{"party":{"partyCode":"Fianna_F\u00e1il","uri":"https:\/\/data.oireachtas.ie\/ie\/oireachtas\/party\/seanad\/12\/Fianna_F\u00e1il","dateRange":{"end":"1973-03-30","start":"1969-11-05"},"showAs":"Fianna
+        F\u00e1il"}}],"offices":[]}},{"membership":{"house":{"uri":"https:\/\/data.oireachtas.ie\/ie\/oireachtas\/house\/seanad\/11","houseCode":"seanad","houseNo":"11","chamberType":"house","showAs":"11th
+        Seanad"},"represents":[{"represent":{"representCode":"Nominated-by-the-Taoiseach","uri":"https:\/\/data.oireachtas.ie\/ie\/oireachtas\/house\/seanad\/11\/panel\/Nominated-by-the-Taoiseach","representType":"panel","showAs":"Nominated
+        by the Taoiseach"}}],"uri":"https:\/\/data.oireachtas.ie\/ie\/oireachtas\/member\/id\/Kathleen-Ahern.S.1964-11-25\/house\/seanad\/11","dateRange":{"end":"1969-07-24","start":"1965-06-23"},"committees":[],"parties":[{"party":{"partyCode":"Fianna_F\u00e1il","uri":"https:\/\/data.oireachtas.ie\/ie\/oireachtas\/party\/seanad\/11\/Fianna_F\u00e1il","dateRange":{"end":"1969-07-24","start":"1965-06-23"},"showAs":"Fianna
+        F\u00e1il"}}],"offices":[]}},{"membership":{"house":{"uri":"https:\/\/data.oireachtas.ie\/ie\/oireachtas\/house\/seanad\/10","houseCode":"seanad","houseNo":"10","chamberType":"house","showAs":"10th
+        Seanad"},"represents":[{"represent":{"representCode":"Nominated-by-the-Taoiseach","uri":"https:\/\/data.oireachtas.ie\/ie\/oireachtas\/house\/seanad\/10\/panel\/Nominated-by-the-Taoiseach","representType":"panel","showAs":"Nominated
+        by the Taoiseach"}}],"uri":"https:\/\/data.oireachtas.ie\/ie\/oireachtas\/member\/id\/Kathleen-Ahern.S.1964-11-25\/house\/seanad\/10","dateRange":{"end":"1965-04-28","start":"1964-11-25"},"committees":[],"parties":[{"party":{"partyCode":"Fianna_F\u00e1il","uri":"https:\/\/data.oireachtas.ie\/ie\/oireachtas\/party\/seanad\/10\/Fianna_F\u00e1il","dateRange":{"end":"1965-04-28","start":"1964-11-25"},"showAs":"Fianna
+        F\u00e1il"}}],"offices":[]}}],"dateOfDeath":null,"fullName":"Kathleen Ahern","memberCode":"Kathleen-Ahern.S.1964-11-25","showAs":"Kathleen
+        Ahern"}}]}'
+    headers:
+      Cache-Control:
+      - no-cache, private
+      Connection:
+      - keep-alive
+      Content-Encoding:
+      - gzip
+      Content-Type:
+      - application/json
+      Date:
+      - Tue, 29 Jul 2025 22:32:18 GMT
+      Strict-Transport-Security:
+      - max-age=31536000; includeSubDomains
+      Transfer-Encoding:
+      - chunked
+      Vary:
+      - accept-encoding
+      - Origin
+      Via:
+      - 1.1 186682e2d059630881a4b8b67ba0ce70.cloudfront.net (CloudFront)
+      X-Amz-Cf-Id:
+      - pprg9HeYZPbZEg245ShLqydkByOlUNy9FWJdgjTbsp2GT38EbNFBFw==
+      X-Amz-Cf-Pop:
+      - LHR5-P2
+      X-Cache:
+      - Miss from cloudfront
+    status:
+      code: 200
+      message: OK
+version: 1

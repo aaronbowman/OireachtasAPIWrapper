@@ -1,0 +1,132 @@
+interactions:
+- request:
+    body: null
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      User-Agent:
+      - python-requests/2.32.4
+    method: GET
+    uri: https://api.oireachtas.ie/v1/parties
+  response:
+    body:
+      string: '{"head":{"counts":{"partyCount":11,"resultCount":11}},"results":[{"party":{"partyCode":"Renua","uri":"https:\/\/data.oireachtas.ie\/ie\/oireachtas\/party\/dail\/31\/Renua","showAs":"Renua"},"house":{"uri":"https:\/\/data.oireachtas.ie\/ie\/oireachtas\/house\/dail\/31","houseCode":"dail","houseNo":"31","showAs":"31st
+        D\u00e1il"}},{"party":{"partyCode":"Socialist_Party","uri":"https:\/\/data.oireachtas.ie\/ie\/oireachtas\/party\/dail\/31\/Socialist_Party","showAs":"Socialist
+        Party"},"house":{"uri":"https:\/\/data.oireachtas.ie\/ie\/oireachtas\/house\/dail\/31","houseCode":"dail","houseNo":"31","showAs":"31st
+        D\u00e1il"}},{"party":{"partyCode":"Fine_Gael","uri":"https:\/\/data.oireachtas.ie\/ie\/oireachtas\/party\/dail\/31\/Fine_Gael","showAs":"Fine
+        Gael"},"house":{"uri":"https:\/\/data.oireachtas.ie\/ie\/oireachtas\/house\/dail\/31","houseCode":"dail","houseNo":"31","showAs":"31st
+        D\u00e1il"}},{"party":{"partyCode":"Anti-Austerity_Alliance_People_Before_Profit","uri":"https:\/\/data.oireachtas.ie\/ie\/oireachtas\/party\/dail\/31\/Anti-Austerity_Alliance_People_Before_Profit","showAs":"Anti-Austerity
+        Alliance - People Before Profit"},"house":{"uri":"https:\/\/data.oireachtas.ie\/ie\/oireachtas\/house\/dail\/31","houseCode":"dail","houseNo":"31","showAs":"31st
+        D\u00e1il"}},{"party":{"partyCode":"Social_Democrats","uri":"https:\/\/data.oireachtas.ie\/ie\/oireachtas\/party\/dail\/31\/Social_Democrats","showAs":"Social
+        Democrats"},"house":{"uri":"https:\/\/data.oireachtas.ie\/ie\/oireachtas\/house\/dail\/31","houseCode":"dail","houseNo":"31","showAs":"31st
+        D\u00e1il"}},{"party":{"partyCode":"Sinn_F\u00e9in","uri":"https:\/\/data.oireachtas.ie\/ie\/oireachtas\/party\/dail\/31\/Sinn_F\u00e9in","showAs":"Sinn
+        F\u00e9in"},"house":{"uri":"https:\/\/data.oireachtas.ie\/ie\/oireachtas\/house\/dail\/31","houseCode":"dail","houseNo":"31","showAs":"31st
+        D\u00e1il"}},{"party":{"partyCode":"People_Before_Profit_Alliance","uri":"https:\/\/data.oireachtas.ie\/ie\/oireachtas\/party\/dail\/31\/People_Before_Profit_Alliance","showAs":"People
+        Before Profit Alliance"},"house":{"uri":"https:\/\/data.oireachtas.ie\/ie\/oireachtas\/house\/dail\/31","houseCode":"dail","houseNo":"31","showAs":"31st
+        D\u00e1il"}},{"party":{"partyCode":"Fianna_F\u00e1il","uri":"https:\/\/data.oireachtas.ie\/ie\/oireachtas\/party\/dail\/31\/Fianna_F\u00e1il","showAs":"Fianna
+        F\u00e1il"},"house":{"uri":"https:\/\/data.oireachtas.ie\/ie\/oireachtas\/house\/dail\/31","houseCode":"dail","houseNo":"31","showAs":"31st
+        D\u00e1il"}},{"party":{"partyCode":"Labour_Party","uri":"https:\/\/data.oireachtas.ie\/ie\/oireachtas\/party\/dail\/31\/Labour_Party","showAs":"Labour
+        Party"},"house":{"uri":"https:\/\/data.oireachtas.ie\/ie\/oireachtas\/house\/dail\/31","houseCode":"dail","houseNo":"31","showAs":"31st
+        D\u00e1il"}},{"party":{"partyCode":"Independent","uri":"https:\/\/data.oireachtas.ie\/ie\/oireachtas\/party\/dail\/31\/Independent","showAs":"Independent"},"house":{"uri":"https:\/\/data.oireachtas.ie\/ie\/oireachtas\/house\/dail\/31","houseCode":"dail","houseNo":"31","showAs":"31st
+        D\u00e1il"}},{"party":{"partyCode":"Workers_and_Unemployed_Action","uri":"https:\/\/data.oireachtas.ie\/ie\/oireachtas\/party\/dail\/31\/Workers_and_Unemployed_Action","showAs":"Workers
+        and Unemployed Action"},"house":{"uri":"https:\/\/data.oireachtas.ie\/ie\/oireachtas\/house\/dail\/31","houseCode":"dail","houseNo":"31","showAs":"31st
+        D\u00e1il"}}]}'
+    headers:
+      Cache-Control:
+      - no-cache, private
+      Connection:
+      - keep-alive
+      Content-Encoding:
+      - gzip
+      Content-Type:
+      - application/json
+      Date:
+      - Tue, 29 Jul 2025 22:32:18 GMT
+      Strict-Transport-Security:
+      - max-age=31536000; includeSubDomains
+      Transfer-Encoding:
+      - chunked
+      Vary:
+      - accept-encoding
+      - Origin
+      Via:
+      - 1.1 c14ab6e34fd6c0be5c53b4826c6c271a.cloudfront.net (CloudFront)
+      X-Amz-Cf-Id:
+      - faNdFZdokcU4zJeoTP1Nxdgj853mg9V_Z_nM1MC602FWTr6eaXEG3w==
+      X-Amz-Cf-Pop:
+      - LHR5-P2
+      X-Cache:
+      - Miss from cloudfront
+    status:
+      code: 200
+      message: OK
+- request:
+    body: null
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      User-Agent:
+      - python-requests/2.32.4
+    method: GET
+    uri: https://api.oireachtas.ie/v1/parties?limit=1
+  response:
+    body:
+      string: '{"head":{"counts":{"partyCount":11,"resultCount":11}},"results":[{"party":{"partyCode":"Renua","uri":"https:\/\/data.oireachtas.ie\/ie\/oireachtas\/party\/dail\/31\/Renua","showAs":"Renua"},"house":{"uri":"https:\/\/data.oireachtas.ie\/ie\/oireachtas\/house\/dail\/31","houseCode":"dail","houseNo":"31","showAs":"31st
+        D\u00e1il"}},{"party":{"partyCode":"Socialist_Party","uri":"https:\/\/data.oireachtas.ie\/ie\/oireachtas\/party\/dail\/31\/Socialist_Party","showAs":"Socialist
+        Party"},"house":{"uri":"https:\/\/data.oireachtas.ie\/ie\/oireachtas\/house\/dail\/31","houseCode":"dail","houseNo":"31","showAs":"31st
+        D\u00e1il"}},{"party":{"partyCode":"Fine_Gael","uri":"https:\/\/data.oireachtas.ie\/ie\/oireachtas\/party\/dail\/31\/Fine_Gael","showAs":"Fine
+        Gael"},"house":{"uri":"https:\/\/data.oireachtas.ie\/ie\/oireachtas\/house\/dail\/31","houseCode":"dail","houseNo":"31","showAs":"31st
+        D\u00e1il"}},{"party":{"partyCode":"Anti-Austerity_Alliance_People_Before_Profit","uri":"https:\/\/data.oireachtas.ie\/ie\/oireachtas\/party\/dail\/31\/Anti-Austerity_Alliance_People_Before_Profit","showAs":"Anti-Austerity
+        Alliance - People Before Profit"},"house":{"uri":"https:\/\/data.oireachtas.ie\/ie\/oireachtas\/house\/dail\/31","houseCode":"dail","houseNo":"31","showAs":"31st
+        D\u00e1il"}},{"party":{"partyCode":"Social_Democrats","uri":"https:\/\/data.oireachtas.ie\/ie\/oireachtas\/party\/dail\/31\/Social_Democrats","showAs":"Social
+        Democrats"},"house":{"uri":"https:\/\/data.oireachtas.ie\/ie\/oireachtas\/house\/dail\/31","houseCode":"dail","houseNo":"31","showAs":"31st
+        D\u00e1il"}},{"party":{"partyCode":"Sinn_F\u00e9in","uri":"https:\/\/data.oireachtas.ie\/ie\/oireachtas\/party\/dail\/31\/Sinn_F\u00e9in","showAs":"Sinn
+        F\u00e9in"},"house":{"uri":"https:\/\/data.oireachtas.ie\/ie\/oireachtas\/house\/dail\/31","houseCode":"dail","houseNo":"31","showAs":"31st
+        D\u00e1il"}},{"party":{"partyCode":"People_Before_Profit_Alliance","uri":"https:\/\/data.oireachtas.ie\/ie\/oireachtas\/party\/dail\/31\/People_Before_Profit_Alliance","showAs":"People
+        Before Profit Alliance"},"house":{"uri":"https:\/\/data.oireachtas.ie\/ie\/oireachtas\/house\/dail\/31","houseCode":"dail","houseNo":"31","showAs":"31st
+        D\u00e1il"}},{"party":{"partyCode":"Fianna_F\u00e1il","uri":"https:\/\/data.oireachtas.ie\/ie\/oireachtas\/party\/dail\/31\/Fianna_F\u00e1il","showAs":"Fianna
+        F\u00e1il"},"house":{"uri":"https:\/\/data.oireachtas.ie\/ie\/oireachtas\/house\/dail\/31","houseCode":"dail","houseNo":"31","showAs":"31st
+        D\u00e1il"}},{"party":{"partyCode":"Labour_Party","uri":"https:\/\/data.oireachtas.ie\/ie\/oireachtas\/party\/dail\/31\/Labour_Party","showAs":"Labour
+        Party"},"house":{"uri":"https:\/\/data.oireachtas.ie\/ie\/oireachtas\/house\/dail\/31","houseCode":"dail","houseNo":"31","showAs":"31st
+        D\u00e1il"}},{"party":{"partyCode":"Independent","uri":"https:\/\/data.oireachtas.ie\/ie\/oireachtas\/party\/dail\/31\/Independent","showAs":"Independent"},"house":{"uri":"https:\/\/data.oireachtas.ie\/ie\/oireachtas\/house\/dail\/31","houseCode":"dail","houseNo":"31","showAs":"31st
+        D\u00e1il"}},{"party":{"partyCode":"Workers_and_Unemployed_Action","uri":"https:\/\/data.oireachtas.ie\/ie\/oireachtas\/party\/dail\/31\/Workers_and_Unemployed_Action","showAs":"Workers
+        and Unemployed Action"},"house":{"uri":"https:\/\/data.oireachtas.ie\/ie\/oireachtas\/house\/dail\/31","houseCode":"dail","houseNo":"31","showAs":"31st
+        D\u00e1il"}}]}'
+    headers:
+      Cache-Control:
+      - no-cache, private
+      Connection:
+      - keep-alive
+      Content-Encoding:
+      - gzip
+      Content-Type:
+      - application/json
+      Date:
+      - Tue, 29 Jul 2025 22:32:19 GMT
+      Strict-Transport-Security:
+      - max-age=31536000; includeSubDomains
+      Transfer-Encoding:
+      - chunked
+      Vary:
+      - accept-encoding
+      - Origin
+      Via:
+      - 1.1 19acb6e9e36220e18326493a80423ac0.cloudfront.net (CloudFront)
+      X-Amz-Cf-Id:
+      - -KgNM93ph4nX2nwKn58QA-176cNv_S_NPOLrU3Qe4i5GygX6-hE0Zg==
+      X-Amz-Cf-Pop:
+      - LHR5-P2
+      X-Cache:
+      - Miss from cloudfront
+    status:
+      code: 200
+      message: OK
+version: 1

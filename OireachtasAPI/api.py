@@ -26,18 +26,20 @@ class API(URLs):
             raise TooManyRequests(response=resp)
 
 
-    def make_request(self, endpoint: str=None, params: dict={}) -> str:
+    def make_request(self, endpoint: str=None, params: dict=None) -> str:
+        if params is None:
+            params = {}
 
         logging.debug(msg=f'Fetching resp from endpoint: {endpoint} with params: {params}')
 
         try:
             response = requests.get(url=endpoint, params=params)
-
-            if response.status_code != 200:
-                self._response_code_error_type(response)
-
         except Exception as err:
             logging.error(msg=err, exc_info=True)
+            raise
+
+        if response.status_code != 200:
+            self._response_code_error_type(response)
 
         logging.debug(msg=f'Returning resp from endpoint: {endpoint} with params: {params}')
         return response

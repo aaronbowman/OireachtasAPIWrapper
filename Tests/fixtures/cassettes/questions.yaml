@@ -1,0 +1,193 @@
+interactions:
+- request:
+    body: null
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      User-Agent:
+      - python-requests/2.32.4
+    method: GET
+    uri: https://api.oireachtas.ie/v1/questions
+  response:
+    body:
+      string: '{"head":{"counts":{"questionCount":10000,"resultCount":10000}},"results":[{"question":{"date":"2025-07-17","debateSection":{"formats":{"xml":{"uri":"https:\/\/data.oireachtas.ie\/akn\/ie\/debateRecord\/dail\/2025-07-17\/debate\/mul@\/dbsect_3.xml"},"pdf":null},"showAs":"Public
+        Expenditure Policy","debateSectionId":"dbsect_3","uri":"https:\/\/data.oireachtas.ie\/akn\/ie\/debateRecord\/dail\/2025-07-17\/debate\/dbsect_3"},"to":{"uri":null,"roleType":null,"showAs":"Public
+        Expenditure","roleCode":null},"questionNumber":1,"uri":"https:\/\/data.oireachtas.ie\/ie\/oireachtas\/question\/2025-07-17\/pq_1","showAs":"
+        1. Deputy Mair\u00e9ad Farrell asked the Minister for Public Expenditure,
+        Infrastructure, Public Service Reform and Digitalisation for an update on
+        general budgetary expenditure measures. [39486\/25] ","by":{"uri":"https:\/\/data.oireachtas.ie\/ie\/oireachtas\/member\/id\/Mair\u00e9ad-Farrell.D.2020-02-08","showAs":"Mair\u00e9ad
+        Farrell","memberCode":"Mair\u00e9ad-Farrell.D.2020-02-08"},"questionType":"oral","house":{"committeeCode":"","houseCode":"dail","uri":"https:\/\/data.oireachtas.ie\/ie\/oireachtas\/house\/dail\/34","chamberType":"house","showAs":"34th
+        D\u00e1il","houseNo":"34"}},"contextDate":"2025-07-17"},{"question":{"date":"2025-07-17","debateSection":{"formats":{"xml":{"uri":"https:\/\/data.oireachtas.ie\/akn\/ie\/debateRecord\/dail\/2025-07-17\/writtens\/mul@\/dbsect_51.xml"},"pdf":null},"showAs":"National
+        Development Plan","debateSectionId":"dbsect_51","uri":"https:\/\/data.oireachtas.ie\/akn\/ie\/debateRecord\/dail\/2025-07-17\/writtens\/dbsect_51"},"to":{"uri":null,"roleType":null,"showAs":"Public
+        Expenditure","roleCode":null},"questionNumber":2,"uri":"https:\/\/data.oireachtas.ie\/ie\/oireachtas\/question\/2025-07-17\/pq_2","showAs":"
+        2. Deputy Paul Murphy asked the Minister for Public Expenditure, Infrastructure,
+        Public Service Reform and Digitalisation the amount that will be allocated
+        under the review of the National Development Plan to public capital investment
+        in housing, public transport and renewable energy; and if he will make a statement
+        on the matter. [39718\/25] ","by":{"uri":"https:\/\/data.oireachtas.ie\/ie\/oireachtas\/member\/id\/Paul-Murphy.D.2014-10-10","showAs":"Paul
+        Murphy","memberCode":"Paul-Murphy.D.2014-10-10"},"questionType":"written","house":{"committeeCode":"","houseCode":"dail","uri":"https:\/\/data.oireachtas.ie\/ie\/oireachtas\/house\/dail\/34","chamberType":"house","showAs":"34th
+        D\u00e1il","houseNo":"34"}},"contextDate":"2025-07-17"},{"question":{"date":"2025-07-17","debateSection":{"formats":{"xml":{"uri":"https:\/\/data.oireachtas.ie\/akn\/ie\/debateRecord\/dail\/2025-07-17\/debate\/mul@\/dbsect_4.xml"},"pdf":null},"showAs":"Protected
+        Disclosures","debateSectionId":"dbsect_4","uri":"https:\/\/data.oireachtas.ie\/akn\/ie\/debateRecord\/dail\/2025-07-17\/debate\/dbsect_4"},"to":{"uri":null,"roleType":null,"showAs":"Public
+        Expenditure","roleCode":null},"questionNumber":3,"uri":"https:\/\/data.oireachtas.ie\/ie\/oireachtas\/question\/2025-07-17\/pq_3","showAs":"
+        3. Deputy Mair\u00e9ad Farrell asked the Minister for Public Expenditure,
+        Infrastructure, Public Service Reform and Digitalisation if his Department\u2019s
+        submission to the EU review of the protected disclosures regime will refer
+        to the views of whistleblowers from the Farrelly commission and Children''s
+        Health Ireland (children\u2019s hip surgeries) about the reprisals they faced.
+        [39487\/25] ","by":{"uri":"https:\/\/data.oireachtas.ie\/ie\/oireachtas\/member\/id\/Mair\u00e9ad-Farrell.D.2020-02-08","showAs":"Mair\u00e9ad
+        Farrell","memberCode":"Mair\u00e9ad-Farrell.D.2020-02-08"},"questionType":"oral","house":{"committeeCode":"","houseCode":"dail","uri":"https:\/\/data.oireachtas.ie\/ie\/oireachtas\/house\/dail\/34","chamberType":"house","showAs":"34th
+        D\u00e1il","houseNo":"34"}},"contextDate":"2025-07-17"},{"question":{"date":"2025-07-17","debateSection":{"formats":{"xml":{"uri":"https:\/\/data.oireachtas.ie\/akn\/ie\/debateRecord\/dail\/2025-07-17\/debate\/mul@\/dbsect_8.xml"},"pdf":null},"showAs":"Planning
+        Issues","debateSectionId":"dbsect_8","uri":"https:\/\/data.oireachtas.ie\/akn\/ie\/debateRecord\/dail\/2025-07-17\/debate\/dbsect_8"},"to":{"uri":null,"roleType":null,"showAs":"Public
+        Expenditure","roleCode":null},"questionNumber":4,"uri":"https:\/\/data.oireachtas.ie\/ie\/oireachtas\/question\/2025-07-17\/pq_4","showAs":"
+        4. Deputy Barry Heneghan asked the Minister for Public Expenditure, Infrastructure,
+        Public Service Reform and Digitalisation if he will outline the specific reforms
+        under consideration following his Department\u2019s review of barriers to
+        infrastructure delivery; if these reforms will include changes to procurement
+        processes, planning timelines, or inter-agency coordination; and if he will
+        make a statement on the matter. [40188\/25] ","by":{"uri":"https:\/\/data.oireachtas.ie\/ie\/oireachtas\/member\/id\/Barry-Heneghan.D.2024-11-29","showAs":"Barry
+        Heneghan","memberCode":"Barry-Heneghan.D.2024-11-29"},"questionType":"oral","house":{"committeeCode":"","houseCode":"dail","uri":"https:\/\/data.oireachtas.ie\/ie\/oireachtas\/house\/dail\/34","chamberType":"house","showAs":"34th
+        D\u00e1il","houseNo":"34"}},"contextDate":"2025-07-17"},{"question":{"date":"2025-07-17","debateSection":{"formats":{"xml":{"uri":"https:\/\/data.oireachtas.ie\/akn\/ie\/debateRecord\/dail\/2025-07-17\/debate\/mul@\/dbsect_6.xml"},"pdf":null},"showAs":"Flood
+        Relief Schemes","debateSectionId":"dbsect_6","uri":"https:\/\/data.oireachtas.ie\/akn\/ie\/debateRecord\/dail\/2025-07-17\/debate\/dbsect_6"},"to":{"uri":null,"roleType":null,"showAs":"Public
+        Expenditure","roleCode":null},"questionNumber":5,"uri":"https:\/\/data.oireachtas.ie\/ie\/oireachtas\/question\/2025-07-17\/pq_5","showAs":"
+        5. Deputy Claire Kerrane asked the Minister for Public Expenditure, Infrastructure,
+        Public Service Reform and Digitalisation to provide an update on a permanent
+        solution for flooding in Lough Funshinagh in County Roscommon; and if he will
+        make a statement on the matter. [38435\/25] ","by":{"uri":"https:\/\/data.oireachtas.ie\/ie\/oireachtas\/member\/id\/Claire-Kerrane.D.2020-02-08","showAs":"Claire
+        Kerrane","memberCode":"Claire-Kerrane.D.2020-02-08"},"questionType":"oral","house":{"committeeCode":"","houseCode":"dail","uri":"https:\/\/data.oireachtas.ie\/ie\/oireachtas\/house\/dail\/34","chamberType":"house","showAs":"34th
+        D\u00e1il","houseNo":"34"}},"contextDate":"2025-07-17"},{"question":{"date":"2025-07-17","debateSection":{"formats":{"xml":{"uri":"https:\/\/data.oireachtas.ie\/akn\/ie\/debateRecord\/dail\/2025-07-17\/debate\/mul@\/dbsect_9.xml"},"pdf":null},"showAs":"Office
+        of Public Works","debateSectionId":"dbsect_9","uri":"https:\/\/data.oireachtas.ie\/akn\/ie\/debateRecord\/dail\/2025-07-17\/debate\/dbsect_9"},"to":{"uri":null,"roleType":null,"showAs":"Public
+        Expenditure","roleCode":null},"questionNumber":6,"uri":"https:\/\/data.oireachtas.ie\/ie\/oireachtas\/question\/2025-07-17\/pq_6","showAs":"
+        6. Deputy John Lahart asked the Minister for Public Expenditure, Infrastructure,
+        Public Service Reform and Digitalisation when work will be undertaken to renew
+        the exterior protective finish of Rathfarnham Castle; and if he will make
+        a statement on the matter. [39992\/25] ","by":{"uri":"https:\/\/data.oireachtas.ie\/ie\/oireachtas\/member\/id\/John-Lahart.D.2016-10-03","showAs":"John
+        Lahart","memberCode":"John-Lahart.D.2016-10-03"},"questionType":"oral","house":{"committeeCode":"","houseCode":"dail","uri":"https:\/\/data.oireachtas.ie\/ie\/oireachtas\/house\/dail\/34","chamberType":"house","showAs":"34th
+        D\u00e1il","houseNo":"34"}},"contextDate":"2025-07-17"},{"question":{"date":"2025-07-17","debateSection":{"formats":{"xml":{"uri":"https:\/\/data.oireachtas.ie\/akn\/ie\/debateRecord\/dail\/2025-07-17\/debate\/mul@\/dbsect_7.xml"},"pdf":null},"showAs":"Flood
+        Relief Schemes","debateSectionId":"dbsect_7","uri":"https:\/\/data.oireachtas.ie\/akn\/ie\/debateRecord\/dail\/2025-07-17\/debate\/dbsect_7"},"to":{"uri":null,"roleType":null,"showAs":"Public
+        Expenditure","roleCode":null},"questionNumber":7,"uri":"https:\/\/data.oireachtas.ie\/ie\/oireachtas\/question\/2025-07-17\/pq_7","showAs":"
+        7. Deputy James O''Connor asked the Minister for Public Expenditure, Infrastructure,
+        Public Service Reform and Digitalisation the status of flood schemes for Rathcormac,
+        Midleton, Castlemartyr, Mogeely and Killeagh and any others in Cork East that
+        his Department is considering; and if he will make a statement on the matter.
+        [40173\/25] ","by":{"uri":"https:\/\/data.oireachtas.ie\/ie\/oireachtas\/member\/id\/James-O''Connor.D.2020-02-08","showAs":"James
+        O''Connor","memberCode":"James-O''Connor.D.2020-02-08"},"questionType":"oral","house":{"committeeCode":"","houseCode":"dail","uri":"https:\/\/data.oireachtas.ie\/ie\/oireachtas\/house\/dail\/34","chamberType":"house","showAs":"34th
+        D\u00e1il","houseNo":"34"}},"contextDate":"2025-07-17"},{"question":{"date":"2025-07-17","debateSection":{"formats":{"xml":{"uri":"https:\/\/data.oireachtas.ie\/akn\/ie\/debateRecord\/dail\/2025-07-17\/writtens\/mul@\/dbsect_52.xml"},"pdf":null},"showAs":"Departmental
+        Priorities","debateSectionId":"dbsect_52","uri":"https:\/\/data.oireachtas.ie\/akn\/ie\/debateRecord\/dail\/2025-07-17\/writtens\/dbsect_52"},"to":{"uri":null,"roleType":null,"showAs":"Public
+        Expenditure","roleCode":null},"questionNumber":8,"uri":"https:\/\/data.oireachtas.ie\/ie\/oireachtas\/question\/2025-07-17\/pq_8","showAs":"
+        8. Deputy Paula Butterly asked the Minister for Public Expenditure, Infrastructure,
+        Public Service Reform and Digitalisation if Dundalk and Drogheda will remain
+        a key priority as key economic growth areas due to their location on the Dublin
+        to Belfast economic corridor Dundalk; and if he will make a statement on the
+        matter. [39512\/25] ","by":{"uri":"https:\/\/data.oireachtas.ie\/ie\/oireachtas\/member\/id\/Paula-Butterly.D.2024-11-29","showAs":"Paula
+        Butterly","memberCode":"Paula-Butterly.D.2024-11-29"},"questionType":"written","house":{"committeeCode":"","houseCode":"dail","uri":"https:\/\/data.oireachtas.ie\/ie\/oireachtas\/house\/dail\/34","chamberType":"house","showAs":"34th
+        D\u00e1il","houseNo":"34"}},"contextDate":"2025-07-17"},{"question":{"date":"2025-07-17","debateSection":{"formats":{"xml":{"uri":"https:\/\/data.oireachtas.ie\/akn\/ie\/debateRecord\/dail\/2025-07-17\/debate\/mul@\/dbsect_7.xml"},"pdf":null},"showAs":"Flood
+        Relief Schemes","debateSectionId":"dbsect_7","uri":"https:\/\/data.oireachtas.ie\/akn\/ie\/debateRecord\/dail\/2025-07-17\/debate\/dbsect_7"},"to":{"uri":null,"roleType":null,"showAs":"Public
+        Expenditure","roleCode":null},"questionNumber":9,"uri":"https:\/\/data.oireachtas.ie\/ie\/oireachtas\/question\/2025-07-17\/pq_9","showAs":"
+        9. Deputy James O''Connor asked the Minister for Public Expenditure, Infrastructure,
+        Public Service Reform and Digitalisation if his Department will consider a
+        new retrospective scheme for residents of Midleton who wish to purchase higher
+        barriers to protect their premises from any flooding that may occur in the
+        future, considering that parts of Midleton town were under four feet and more
+        of water during Storm Babet; if his Department is aware of any delays installing
+        the current individual property protection, IPP, scheme in Midleton; and if
+        he will make a statement on the matter.  [40172\/25] ","by":{"uri":"https:\/\/data.oireachtas.ie\/ie\/oireachtas\/member\/id\/James-O''Connor.D.2020-02-08","showAs":"James
+        O''Connor","memberCode":"James-O''Connor.D.2020-02-08"},"questionType":"oral","house":{"committeeCode":"","houseCode":"dail","uri":"https:\/\/data.oireachtas.ie\/ie\/oireachtas\/house\/dail\/34","chamberType":"house","showAs":"34th
+        D\u00e1il","houseNo":"34"}},"contextDate":"2025-07-17"},{"question":{"date":"2025-07-17","debateSection":{"formats":{"xml":{"uri":"https:\/\/data.oireachtas.ie\/akn\/ie\/debateRecord\/dail\/2025-07-17\/writtens\/mul@\/dbsect_53.xml"},"pdf":null},"showAs":"Burial
+        Grounds","debateSectionId":"dbsect_53","uri":"https:\/\/data.oireachtas.ie\/akn\/ie\/debateRecord\/dail\/2025-07-17\/writtens\/dbsect_53"},"to":{"uri":null,"roleType":null,"showAs":"Public
+        Expenditure","roleCode":null},"questionNumber":10,"uri":"https:\/\/data.oireachtas.ie\/ie\/oireachtas\/question\/2025-07-17\/pq_10","showAs":"
+        10. Deputy Mark Ward asked the Minister for Public Expenditure, Infrastructure,
+        Public Service Reform and Digitalisation further to Parliamentary Question
+        Nos. 363 of 20 May and 79 of 1 July 2025, if he will carry out a feasibility
+        study to assess whether the remains of the Invincibles (details supplied)
+        can be reinterred in Glasnevin Cemetery from their unmarked graves in Kilmainham
+        Gaol, where they were interred in 1883; if his office will engage with family
+        members of the Invincibles on this; and if he will make a statement on the
+        matter. [38413\/25] ","by":{"uri":"https:\/\/data.oireachtas.ie\/ie\/oireachtas\/member\/id\/Mark-Ward.D.2019-11-29","showAs":"Mark
+        Ward","memberCode":"Mark-Ward.D.2019-11-29"},"questionType":"written","house":{"committeeCode":"","houseCode":"dail","uri":"https:\/\/data.oireachtas.ie\/ie\/oireachtas\/house\/dail\/34","chamberType":"house","showAs":"34th
+        D\u00e1il","houseNo":"34"}},"contextDate":"2025-07-17"}]}'
+    headers:
+      Cache-Control:
+      - no-cache, private
+      Connection:
+      - keep-alive
+      Content-Encoding:
+      - gzip
+      Content-Type:
+      - application/json
+      Date:
+      - Tue, 29 Jul 2025 22:32:19 GMT
+      Strict-Transport-Security:
+      - max-age=31536000; includeSubDomains
+      Transfer-Encoding:
+      - chunked
+      Vary:
+      - accept-encoding
+      - Origin
+      Via:
+      - 1.1 c14ab6e34fd6c0be5c53b4826c6c271a.cloudfront.net (CloudFront)
+      X-Amz-Cf-Id:
+      - psKbqLw4G6S9tKvAzqo7kIqH2kJBKeWXwhEgKX-mhtUJQiOPFzBWsQ==
+      X-Amz-Cf-Pop:
+      - LHR5-P2
+      X-Cache:
+      - Miss from cloudfront
+    status:
+      code: 200
+      message: OK
+- request:
+    body: null
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      User-Agent:
+      - python-requests/2.32.4
+    method: GET
+    uri: https://api.oireachtas.ie/v1/questions?limit=1
+  response:
+    body:
+      string: '{"head":{"counts":{"questionCount":10000,"resultCount":10000}},"results":[{"question":{"date":"2025-07-17","debateSection":{"formats":{"xml":{"uri":"https:\/\/data.oireachtas.ie\/akn\/ie\/debateRecord\/dail\/2025-07-17\/debate\/mul@\/dbsect_3.xml"},"pdf":null},"showAs":"Public
+        Expenditure Policy","debateSectionId":"dbsect_3","uri":"https:\/\/data.oireachtas.ie\/akn\/ie\/debateRecord\/dail\/2025-07-17\/debate\/dbsect_3"},"to":{"uri":null,"roleType":null,"showAs":"Public
+        Expenditure","roleCode":null},"questionNumber":1,"uri":"https:\/\/data.oireachtas.ie\/ie\/oireachtas\/question\/2025-07-17\/pq_1","showAs":"
+        1. Deputy Mair\u00e9ad Farrell asked the Minister for Public Expenditure,
+        Infrastructure, Public Service Reform and Digitalisation for an update on
+        general budgetary expenditure measures. [39486\/25] ","by":{"uri":"https:\/\/data.oireachtas.ie\/ie\/oireachtas\/member\/id\/Mair\u00e9ad-Farrell.D.2020-02-08","showAs":"Mair\u00e9ad
+        Farrell","memberCode":"Mair\u00e9ad-Farrell.D.2020-02-08"},"questionType":"oral","house":{"committeeCode":"","houseCode":"dail","uri":"https:\/\/data.oireachtas.ie\/ie\/oireachtas\/house\/dail\/34","chamberType":"house","showAs":"34th
+        D\u00e1il","houseNo":"34"}},"contextDate":"2025-07-17"}]}'
+    headers:
+      Cache-Control:
+      - no-cache, private
+      Connection:
+      - keep-alive
+      Content-Encoding:
+      - gzip
+      Content-Type:
+      - application/json
+      Date:
+      - Tue, 29 Jul 2025 22:32:19 GMT
+      Strict-Transport-Security:
+      - max-age=31536000; includeSubDomains
+      Transfer-Encoding:
+      - chunked
+      Vary:
+      - accept-encoding
+      - Origin
+      Via:
+      - 1.1 d4cd5e0c3e81c060baebde940eb0f990.cloudfront.net (CloudFront)
+      X-Amz-Cf-Id:
+      - bLBgIIGBJDF7uxCN7-5v6nhHaqKwr4t248r0iXIZ19lcVtAIx2pCIQ==
+      X-Amz-Cf-Pop:
+      - LHR5-P2
+      X-Cache:
+      - Miss from cloudfront
+    status:
+      code: 200
+      message: OK
+version: 1

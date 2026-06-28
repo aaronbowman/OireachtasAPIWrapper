@@ -1,0 +1,124 @@
+interactions:
+- request:
+    body: null
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      User-Agent:
+      - python-requests/2.32.4
+    method: GET
+    uri: https://api.oireachtas.ie/v1/constituencies
+  response:
+    body:
+      string: '{"head":{"counts":{"constituencyCount":8,"resultCount":8}},"results":[{"constituencyOrPanel":{"uri":"https:\/\/data.oireachtas.ie\/ie\/oireachtas\/house\/seanad\/9\/panel\/Nominated-by-the-Taoiseach","representType":"panel","representCode":"Nominated-by-the-Taoiseach","showAs":"Nominated
+        by the Taoiseach"},"house":{"houseNo":"9","uri":"https:\/\/data.oireachtas.ie\/ie\/oireachtas\/house\/seanad\/9","houseCode":"seanad","showAs":"9th
+        Seanad"}},{"constituencyOrPanel":{"uri":"https:\/\/data.oireachtas.ie\/ie\/oireachtas\/house\/seanad\/9\/panel\/Agricultural-Panel","representType":"panel","representCode":"Agricultural-Panel","showAs":"Agricultural
+        Panel"},"house":{"houseNo":"9","uri":"https:\/\/data.oireachtas.ie\/ie\/oireachtas\/house\/seanad\/9","houseCode":"seanad","showAs":"9th
+        Seanad"}},{"constituencyOrPanel":{"uri":"https:\/\/data.oireachtas.ie\/ie\/oireachtas\/house\/seanad\/9\/panel\/Labour-Panel","representType":"panel","representCode":"Labour-Panel","showAs":"Labour
+        Panel"},"house":{"houseNo":"9","uri":"https:\/\/data.oireachtas.ie\/ie\/oireachtas\/house\/seanad\/9","houseCode":"seanad","showAs":"9th
+        Seanad"}},{"constituencyOrPanel":{"uri":"https:\/\/data.oireachtas.ie\/ie\/oireachtas\/house\/seanad\/9\/panel\/Administrative-Panel","representType":"panel","representCode":"Administrative-Panel","showAs":"Administrative
+        Panel"},"house":{"houseNo":"9","uri":"https:\/\/data.oireachtas.ie\/ie\/oireachtas\/house\/seanad\/9","houseCode":"seanad","showAs":"9th
+        Seanad"}},{"constituencyOrPanel":{"uri":"https:\/\/data.oireachtas.ie\/ie\/oireachtas\/house\/seanad\/9\/panel\/Industrial-and-Commercial-Panel","representType":"panel","representCode":"Industrial-and-Commercial-Panel","showAs":"Industrial
+        and Commercial Panel"},"house":{"houseNo":"9","uri":"https:\/\/data.oireachtas.ie\/ie\/oireachtas\/house\/seanad\/9","houseCode":"seanad","showAs":"9th
+        Seanad"}},{"constituencyOrPanel":{"uri":"https:\/\/data.oireachtas.ie\/ie\/oireachtas\/house\/seanad\/9\/panel\/National-University-of-Ireland","representType":"panel","representCode":"National-University-of-Ireland","showAs":"National
+        University of Ireland"},"house":{"houseNo":"9","uri":"https:\/\/data.oireachtas.ie\/ie\/oireachtas\/house\/seanad\/9","houseCode":"seanad","showAs":"9th
+        Seanad"}},{"constituencyOrPanel":{"uri":"https:\/\/data.oireachtas.ie\/ie\/oireachtas\/house\/seanad\/9\/panel\/Cultural-and-Educational-Panel","representType":"panel","representCode":"Cultural-and-Educational-Panel","showAs":"Cultural
+        and Educational Panel"},"house":{"houseNo":"9","uri":"https:\/\/data.oireachtas.ie\/ie\/oireachtas\/house\/seanad\/9","houseCode":"seanad","showAs":"9th
+        Seanad"}},{"constituencyOrPanel":{"uri":"https:\/\/data.oireachtas.ie\/ie\/oireachtas\/house\/seanad\/9\/panel\/University-of-Dublin","representType":"panel","representCode":"University-of-Dublin","showAs":"University
+        of Dublin"},"house":{"houseNo":"9","uri":"https:\/\/data.oireachtas.ie\/ie\/oireachtas\/house\/seanad\/9","houseCode":"seanad","showAs":"9th
+        Seanad"}}]}'
+    headers:
+      Cache-Control:
+      - no-cache, private
+      Connection:
+      - keep-alive
+      Content-Encoding:
+      - gzip
+      Content-Type:
+      - application/json
+      Date:
+      - Tue, 29 Jul 2025 22:32:17 GMT
+      Strict-Transport-Security:
+      - max-age=31536000; includeSubDomains
+      Transfer-Encoding:
+      - chunked
+      Vary:
+      - accept-encoding
+      - Origin
+      Via:
+      - 1.1 fe81b7a56101ab7f8f60c8ec19986806.cloudfront.net (CloudFront)
+      X-Amz-Cf-Id:
+      - s5Kt5l0aQGr_RZIRZFfv4ws4W5Cf4ckbV4icjDXIEyCEDDRzR0DPyw==
+      X-Amz-Cf-Pop:
+      - LHR5-P2
+      X-Cache:
+      - Miss from cloudfront
+    status:
+      code: 200
+      message: OK
+- request:
+    body: null
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      User-Agent:
+      - python-requests/2.32.4
+    method: GET
+    uri: https://api.oireachtas.ie/v1/constituencies?limit=1
+  response:
+    body:
+      string: '{"head":{"counts":{"constituencyCount":8,"resultCount":8}},"results":[{"constituencyOrPanel":{"uri":"https:\/\/data.oireachtas.ie\/ie\/oireachtas\/house\/seanad\/9\/panel\/Nominated-by-the-Taoiseach","representType":"panel","representCode":"Nominated-by-the-Taoiseach","showAs":"Nominated
+        by the Taoiseach"},"house":{"houseNo":"9","uri":"https:\/\/data.oireachtas.ie\/ie\/oireachtas\/house\/seanad\/9","houseCode":"seanad","showAs":"9th
+        Seanad"}},{"constituencyOrPanel":{"uri":"https:\/\/data.oireachtas.ie\/ie\/oireachtas\/house\/seanad\/9\/panel\/Agricultural-Panel","representType":"panel","representCode":"Agricultural-Panel","showAs":"Agricultural
+        Panel"},"house":{"houseNo":"9","uri":"https:\/\/data.oireachtas.ie\/ie\/oireachtas\/house\/seanad\/9","houseCode":"seanad","showAs":"9th
+        Seanad"}},{"constituencyOrPanel":{"uri":"https:\/\/data.oireachtas.ie\/ie\/oireachtas\/house\/seanad\/9\/panel\/Labour-Panel","representType":"panel","representCode":"Labour-Panel","showAs":"Labour
+        Panel"},"house":{"houseNo":"9","uri":"https:\/\/data.oireachtas.ie\/ie\/oireachtas\/house\/seanad\/9","houseCode":"seanad","showAs":"9th
+        Seanad"}},{"constituencyOrPanel":{"uri":"https:\/\/data.oireachtas.ie\/ie\/oireachtas\/house\/seanad\/9\/panel\/Administrative-Panel","representType":"panel","representCode":"Administrative-Panel","showAs":"Administrative
+        Panel"},"house":{"houseNo":"9","uri":"https:\/\/data.oireachtas.ie\/ie\/oireachtas\/house\/seanad\/9","houseCode":"seanad","showAs":"9th
+        Seanad"}},{"constituencyOrPanel":{"uri":"https:\/\/data.oireachtas.ie\/ie\/oireachtas\/house\/seanad\/9\/panel\/Industrial-and-Commercial-Panel","representType":"panel","representCode":"Industrial-and-Commercial-Panel","showAs":"Industrial
+        and Commercial Panel"},"house":{"houseNo":"9","uri":"https:\/\/data.oireachtas.ie\/ie\/oireachtas\/house\/seanad\/9","houseCode":"seanad","showAs":"9th
+        Seanad"}},{"constituencyOrPanel":{"uri":"https:\/\/data.oireachtas.ie\/ie\/oireachtas\/house\/seanad\/9\/panel\/National-University-of-Ireland","representType":"panel","representCode":"National-University-of-Ireland","showAs":"National
+        University of Ireland"},"house":{"houseNo":"9","uri":"https:\/\/data.oireachtas.ie\/ie\/oireachtas\/house\/seanad\/9","houseCode":"seanad","showAs":"9th
+        Seanad"}},{"constituencyOrPanel":{"uri":"https:\/\/data.oireachtas.ie\/ie\/oireachtas\/house\/seanad\/9\/panel\/Cultural-and-Educational-Panel","representType":"panel","representCode":"Cultural-and-Educational-Panel","showAs":"Cultural
+        and Educational Panel"},"house":{"houseNo":"9","uri":"https:\/\/data.oireachtas.ie\/ie\/oireachtas\/house\/seanad\/9","houseCode":"seanad","showAs":"9th
+        Seanad"}},{"constituencyOrPanel":{"uri":"https:\/\/data.oireachtas.ie\/ie\/oireachtas\/house\/seanad\/9\/panel\/University-of-Dublin","representType":"panel","representCode":"University-of-Dublin","showAs":"University
+        of Dublin"},"house":{"houseNo":"9","uri":"https:\/\/data.oireachtas.ie\/ie\/oireachtas\/house\/seanad\/9","houseCode":"seanad","showAs":"9th
+        Seanad"}}]}'
+    headers:
+      Cache-Control:
+      - no-cache, private
+      Connection:
+      - keep-alive
+      Content-Encoding:
+      - gzip
+      Content-Type:
+      - application/json
+      Date:
+      - Tue, 29 Jul 2025 22:32:19 GMT
+      Strict-Transport-Security:
+      - max-age=31536000; includeSubDomains
+      Transfer-Encoding:
+      - chunked
+      Vary:
+      - accept-encoding
+      - Origin
+      Via:
+      - 1.1 f9a0bec4c5346e6828c57d40583e6e82.cloudfront.net (CloudFront)
+      X-Amz-Cf-Id:
+      - JxT2kPrbQDq7IAk2Qcoya84H6-ZXkdALvBLO_Uu7KIBJRmxMKbZ26w==
+      X-Amz-Cf-Pop:
+      - LHR5-P2
+      X-Cache:
+      - Miss from cloudfront
+    status:
+      code: 200
+      message: OK
+version: 1
