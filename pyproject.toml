@@ -1,24 +1,6 @@
 [project]
 name = "OireachtasAPIWrapper"
-version = "0.0.2"
-<<<<<<< HEAD
-description = "A Python wrapper for the Oireachtas (Irish Parliament) Open Data API"
-authors = [{ name = "Aaron Bowman", email = "aaronrbowman12@gmail.com" }]
-license = { text = "MIT" }
-requires-python = ">=3.8"
-dependencies = [
-    "requests>=2.32",
-]
-
-[project.optional-dependencies]
-dev = [
-    "vcrpy>=7.0",
-    "pytest>=7.0",
-]
-
-[build-system]
-requires = ["setuptools>=42", "wheel"]
-=======
+version = "1.1.0"
 description = "Python wrapper client for the Oireachtas public API"
 readme = "README.md"
 requires-python = ">=3.9"
@@ -49,10 +31,6 @@ Repository = "https://github.com/aaronbowman/OireachtasAPIWrapper"
 Documentation = "https://github.com/aaronbowman/OireachtasAPIWrapper#readme"
 Issues = "https://github.com/aaronbowman/OireachtasAPIWrapper/issues"
 
-
-
-
 [build-system]
 requires = ["setuptools>=68", "wheel"]
->>>>>>> df46be9a75c229a86acd3777c1f54d19c556bc78
 build-backend = "setuptools.build_meta"
