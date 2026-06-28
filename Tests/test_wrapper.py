@@ -1,27 +1,44 @@
+<<<<<<< HEAD
 import os
 from unittest import TestCase
 
 import vcr
+=======
+import pytest
+from unittest.mock import Mock
+>>>>>>> df46be9a75c229a86acd3777c1f54d19c556bc78
 
 from OireachtasAPI import wrapper
 
 CASSETTES = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'fixtures', 'cassettes')
 
 
-class TestWrapper(TestCase):
+@pytest.mark.parametrize(
+    ("endpoint_name", "expected_url"),
+    [
+        ("legislation", "https://api.oireachtas.ie/v1/legislation"),
+        ("debates", "https://api.oireachtas.ie/v1/debates"),
+        ("constituencies", "https://api.oireachtas.ie/v1/constituencies"),
+        ("parties", "https://api.oireachtas.ie/v1/parties"),
+        ("divisions", "https://api.oireachtas.ie/v1/divisions"),
+        ("questions", "https://api.oireachtas.ie/v1/questions"),
+        ("houses", "https://api.oireachtas.ie/v1/houses"),
+        ("members", "https://api.oireachtas.ie/v1/members"),
+    ],
+)
+def test_fetch_endpoint_returns_expected_url(endpoint_name, expected_url):
+    assert wrapper.Wrapper()._fetch_endpoint(endpoint_name=endpoint_name) == expected_url
 
-    def test__fetch_endpoint_legislation(self):
-        test_case = wrapper.Wrapper()._fetch_endpoint(endpoint_name='legislation')
-        self.assertEqual(test_case, 'https://api.oireachtas.ie/v1/legislation')
 
-    def test__fetch_endpoint_debates(self):
-        test_case = wrapper.Wrapper()._fetch_endpoint(endpoint_name='debates')
-        self.assertEqual(test_case, 'https://api.oireachtas.ie/v1/debates')
+def test_wrapper_make_request_uses_api_client(monkeypatch, response_factory):
+    payload = {"head": {"counts": {"billCount": 1}}}
+    mock_response = response_factory(status_code=200, json_data=payload)
+    mock_make_request = Mock(return_value=mock_response)
+    monkeypatch.setattr(wrapper.Wrapper, "make_request", mock_make_request)
 
-    def test__fetch_endpoint_constituencies(self):
-        test_case = wrapper.Wrapper()._fetch_endpoint(endpoint_name='constituencies')
-        self.assertEqual(test_case, 'https://api.oireachtas.ie/v1/constituencies')
+    response = wrapper.Wrapper().wrapper_make_request(endpoint_name="legislation", params={"limit": 1})
 
+<<<<<<< HEAD
     def test__fetch_endpoint_parties(self):
         test_case = wrapper.Wrapper()._fetch_endpoint(endpoint_name='parties')
         self.assertEqual(test_case, 'https://api.oireachtas.ie/v1/parties')
@@ -80,3 +97,9 @@ class TestWrapper(TestCase):
     def test_wrapper_make_divisions_request(self):
         test_case = wrapper.Wrapper().wrapper_make_request(endpoint_name='divisions')
         self.assertEqual(test_case.status_code, 200)
+=======
+    assert response.json()["head"]["counts"]["billCount"] == 1
+    mock_make_request.assert_called_once_with(
+        endpoint="https://api.oireachtas.ie/v1/legislation", params={"limit": 1}
+    )
+>>>>>>> df46be9a75c229a86acd3777c1f54d19c556bc78

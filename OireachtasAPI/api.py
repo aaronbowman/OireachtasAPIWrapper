@@ -34,6 +34,7 @@ class API(URLs):
 
         try:
             response = requests.get(url=endpoint, params=params)
+<<<<<<< HEAD
         except Exception as err:
             logging.error(msg=err, exc_info=True)
             raise
@@ -44,3 +45,15 @@ class API(URLs):
         logging.debug(msg=f'Returning resp from endpoint: {endpoint} with params: {params}')
         return response
 
+=======
+
+            if response.status_code != 200:
+                self._response_code_error_type(response)
+
+            logging.debug(msg=f'Returning resp from endpoint: {endpoint} with params: {params}')
+            return response
+
+        except Exception as err:
+            logging.error(msg=err, exc_info=True)
+            raise
+>>>>>>> df46be9a75c229a86acd3777c1f54d19c556bc78
